@@ -29,7 +29,7 @@ a {
   justify-content: space-around;
 }
 
-.menu .button {
+.button {
   height: 80px;
   width: 250px;
   background: linear-gradient(darkred, red);
@@ -47,7 +47,7 @@ a {
   box-shadow: 0 0 20px 5px rgba(50, 0, 0, 0.5);
 }
 
-.menu .button:hover {
+.button:hover {
   box-shadow: 0 0 20px 5px rgba(50, 0, 0, 0.8);
   background: linear-gradient(rgba(139, 0, 0, 0.88), rgba(255, 0, 0, 0.88));
 }
