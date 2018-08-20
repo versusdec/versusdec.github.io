@@ -155,7 +155,7 @@ include('./js/vendors/jquery-3.3.1.min.js', function () {
 		});
 
 	}
-	if ($('.swiper-container').length && $(window).width() < 768) {
+	if ($('.gallery_grid').length && $(window).width() < 768) {
 		include('./js/vendors/swiper.min.js', function () {
 			const slider = new Swiper('.swiper-container', {
 				direction: 'horizontal',
@@ -163,9 +163,48 @@ include('./js/vendors/jquery-3.3.1.min.js', function () {
 				speed: 400,
 				autoplay: {
 					delay: 2000,
+				},
+			})
+		})
+	}
+	if($('.feedback_slider').length){
+		include('./js/vendors/swiper.min.js', function () {
+			const fbSlider = new Swiper('.feedback_slider', {
+				direction: 'horizontal',
+				loop: true,
+				speed: 400,
+				autoplay: {
+					delay: 4000,
+				},
+				navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev'
+				},
+				pagination: {
+					el: '.swiper-pagination',
 				  },
 			})
 		})
+	}
+	if ($('.tabs_wrapper').length) {
+		const btns = document.querySelectorAll('.tab');
+		btns.forEach((btn, i, arr) => {
+			btn.addEventListener('click', () => {
+				for (let i = 0; i < arr.length; i++) {
+					arr[i].classList.remove('active');
+				}
+				btn.classList.add('active')
+				open(i)
+			})
+		});
+
+		function open(tab) {
+			var x = document.querySelectorAll('.tab_content');
+			for (let i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			x[tab].style.display = "block";
+		}
 	}
 
 });

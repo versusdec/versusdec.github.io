@@ -1,0 +1,187 @@
+@import './main.css';
+.team_header {
+    background: -webkit-gradient(linear, left top, right top, from(#ad2845dc), to(#c8443bce));
+    background: -webkit-linear-gradient(left, #ad2845dc, #c8443bce);
+    background: -o-linear-gradient(left, #ad2845dc, #c8443bce);
+    background: linear-gradient(to right, #ad2845dc, #c8443bce);
+    height: 8vw;
+    min-height: auto;
+}
+
+.team_header .logo {
+    margin: 0.8vw 0 0 7vw;
+}
+
+.header_address {
+    padding: 1.4% 30px 15px 0;
+}
+
+.team_wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/images/slide1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team_title {
+    font-family: 'Cond-Reg', sans-serif;
+    width: 100%;
+    font-size: 3.1vw;
+    text-align: center;
+    padding: 118px 0 26px 0;
+    color: #fff;
+}
+
+.our_team {
+    background: none;
+    top: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 1242px;
+    padding-top: 157px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-right: 30px;
+    padding-bottom: 0;
+}
+
+.our_team * {
+    font-family: 'Cond-Reg', sans-serif;
+    color: #000;
+}
+
+.our_team a {
+    color: #ac2746;
+    font-family: 'Cond-Reg', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.team_member {
+    height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+.team_wrapp {
+    width: 100%;
+    background: url('../assets/images/teamBG.png');
+    background-size: contain;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.footer {
+    width: 100%;
+    height: 750px;
+    font-family: 'Open Sans';
+    color: #fff;
+    padding-top: 100px;
+    position: relative;
+    background: url('../assets/images/asd.png');
+    background-size: cover;
+}
+
+.footer p {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.footer .footer_title {
+    font-size: 55px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.footer footer {
+    background: none;
+    position: relative;
+    top: 0;
+    font-size: 12px;
+    margin-top: 150px;
+}
+
+.footer footer p {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1242px) {
+    .our_team {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .header_menu_btn {
+        margin: 2%;
+    }
+    .activate_header_menu {
+        top: 8vw;
+        background: -webkit-gradient(linear, left top, right top, from(#ad2845dc), to(#c8443bce));
+        background: -webkit-linear-gradient(left, #ad2845dc, #c8443bce);
+        background: -o-linear-gradient(left, #ad2845dc, #c8443bce);
+        background: linear-gradient(to right, #ad2845dc, #c8443bce);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header_menu_btn {
+        margin: 2%;
+    }
+    .header_menu_btn div {
+        border: 3px solid white;
+    }
+    .team_title {
+        font-size: 32px;
+    }
+    .our_team {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header_menu_btn {
+        margin-right: 15px;
+    }
+    .breadcrumb {
+        width: auto;
+    }
+    .footer .footer_title {
+        font-size: 16px;
+    }
+    .footer p {
+        font-size: 28px;
+    }
+    .team_member{
+        height: 600px;
+    }
+}
