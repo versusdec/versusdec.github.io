@@ -1,0 +1,330 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Geo, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/backgrounds/background.jpg');
+    background-attachment: fixed;
+    background-position: 35%;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    z-index: -1;
+    background-size: cover;
+}
+
+.header {
+    height: 65px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+footer {
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.phone_number {
+    color: #fff;
+    font-size: 12px;
+    /*    margin-top: -27px;
+        margin-right: -8px;*/
+}
+
+.phone_number a:after {
+    content: '';
+    background-image: url("../images/mobile icon.png");
+    background-size: contain;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: -10px;
+}
+
+.content_wrapper {
+    padding: 0 55px;
+    margin: 11px 0 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.webinar_block {
+    max-width: 260px;
+    width: 100%;
+    height: 220px;
+    background-color: rgba(255, 255, 255, 0.80);
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.webinar_head {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 25px;
+    background: red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Muller Bold", sans-serif;
+    letter-spacing: -1.3px;
+}
+
+.webcam {
+    width: 30px;
+    height: 30px;
+    background: url("../images/cam.png");
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+
+.webinar_logo {
+    width: 80px;
+    height: 80px;
+    background: url("../images/ielts.jpg");
+    background-size: contain;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+
+.webinar_title {
+    text-align: center;
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.4px;
+    color: #3a3a3a;
+}
+
+.webinar_date_block {
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 9px;
+}
+
+.timezone {
+    text-align: end;
+    font-size: 12px;
+    color: #6a6a6a;
+    padding-right: 7px;
+}
+
+.palka {
+    height: 25px;
+    width: 1px;
+    background-color: #6a6a6a;
+}
+
+.webinar_date {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.webinar_date span {
+    font-family: "Muller Bold", sans-serif;
+    font-size: 30px;
+    letter-spacing: -1.2px;
+    color: #434343;
+}
+
+.registration_form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 260px;
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.registration_form input {
+    width: 100%;
+    background-color: transparent;
+    margin-top: 12px;
+    height: 38px;
+    border: 1px solid white;
+    padding-left: 10px;
+    position: relative;
+    color: #fff;
+}
+
+.registration_form input:nth-child(1) {
+    margin-top: 0;
+}
+
+.registration_form input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.registration_form input:-ms-input-placeholder {
+    color: #fff;
+}
+
+.registration_form input::-ms-input-placeholder {
+    color: #fff;
+}
+
+.registration_form input::placeholder {
+    color: #fff;
+}
+
+.registration_form label {
+    margin-top: 10px;
+}
+
+.registration_form span, .registration_form span > a {
+    font-family: "Muller Reg", sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    margin-bottom: 2px;
+}
+
+.registration_form .reg_submit {
+    height: 50px;
+    background-color: #085484;
+    color: #fff;
+    font-size: 18px;
+}
+
+.custom_checkbox {
+    position: relative;
+}
+
+.custom_checkbox input {
+    display: none;
+}
+
+.custom_checkmark {
+    display: block;
+    padding-left: 24px;
+}
+
+.custom_checkmark:before {
+    content: '';
+    left: 0;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid white;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.31);
+}
+
+.custom_checkmark:after {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.custom_checkbox input:checked ~ .custom_checkmark:after {
+    opacity: 1;
+}
+
+.custom_checkmark:after {
+    left: 6px;
+    top: 1px;
+    width: 4px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+

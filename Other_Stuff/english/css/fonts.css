@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "Geo";
+    src: url("../fonts/geometria.ttf") format("truetype")
+}
+@font-face {
+    font-family: "Muller Reg";
+    src: url("../fonts/mullerregular.otf") format("opentype");
+}
+@font-face {
+    font-family: "Muller Bold";
+    src: url("../fonts/mullerbold.otf") format("opentype");
+}

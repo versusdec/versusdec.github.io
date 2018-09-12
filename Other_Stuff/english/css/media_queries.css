@@ -1,0 +1,161 @@
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .content_wrapper {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    .header, .content_wrapper {
+        padding: 0 12% 0 9.4%;
+    }
+
+    .header {
+        height: auto;
+        padding-top: 2.4%;
+    }
+
+    .logo {
+        height: 4.7vw;
+    }
+
+    .phone_number {
+        font-size: 1.4vw;
+        margin-top: -10px;
+        padding-right: 6.8%;
+        position: relative;
+    }
+
+    .phone_number a:after {
+        /*        width: 78px;
+                height: 78px;*/
+        width: 4.1vw;
+        height: 4.1vw;
+        position: absolute;
+        top: -50%;
+        right: 0;
+    }
+
+    .content_wrapper {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin-top: 46px;
+    }
+
+    .webinar_block {
+        max-width: 674px;
+        height: auto;
+        margin-right: 7%;
+        padding-bottom: 3%;
+    }
+
+    .webinar_head {
+        max-width: 45.3%;
+        width: 100%;
+        padding: 3% 0;
+        height: auto;
+        font-size: 1.6vw;
+        letter-spacing: 1px;
+    }
+
+    .webcam {
+        max-width: 7%;
+        width: 100%;
+        padding-top: 7%;
+        margin: 3%;
+        height: 0;
+        background-size: contain;
+    }
+
+    .webinar_logo {
+        max-width: 25%;
+        width: 100%;
+        padding-top: 25%;
+        height: 0;
+        margin-top: -15px;
+    }
+
+    .webinar_title {
+        font-size: 1.7vw;
+        line-height: 1.9vw;
+        margin-top: 18px;
+    }
+
+    .webinar_date_block {
+        padding: 0 10%;
+        margin-top: 2.7vw;
+    }
+
+    .webinar_date {
+        margin-top: 10px;
+    }
+
+    .timezone {
+        font-size: 1.5vw;
+        padding-right: 0;
+    }
+
+    .webinar_date span {
+        font-size: 3.5vw;
+    }
+
+    .registration_form {
+        max-width: 626px;
+        margin-top: 0;
+        margin-left: 7%;
+    }
+
+    .registration_form input {
+        width: 100%;
+        margin-top: 3%;
+        height: 4.8vw;
+        padding-left: 4.8%;
+        color: #fff;
+        font-size: 1.6vw;
+    }
+
+    .registration_form span, .registration_form span > a {
+        font-size: 1.3vw;
+    }
+
+    .custom_checkmark:before {
+        max-width: 7.1%;
+        width: 100%;
+        height: 0;
+        padding-top: 7.1%;
+    }
+
+    .custom_checkmark {
+        padding-left: 10%;
+    }
+
+    .custom_checkmark:after {
+        left: 2.6%;
+        top: 4%;
+        width: 2%;
+        height: 48%;
+        border: solid #403838;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .registration_form label {
+        margin-top: 5.3%;
+    }
+
+    .registration_form .reg_submit {
+        height: 6.2vw;
+        font-size: 1.9vw;
+        margin-top: 7%;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    .content_wrapper{
+        justify-content: space-between;
+    }
+}
