@@ -49,7 +49,7 @@ a {
 }
 
 .header {
-    height: 65px;
+    padding: 28px 37px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -60,7 +60,6 @@ a {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 0 15px;
 }
 
 footer {
@@ -68,18 +67,26 @@ footer {
     height: 110px;
     text-align: center;
     color: #fff;
-    font-size: 14px;
+    font-size: 3vw;
+    letter-spacing: 1px;
 }
 
 .logo {
-    height: 40px;
+    height: 12vw;
 }
 
 .phone_number {
     color: #fff;
-    font-size: 12px;
-    /*    margin-top: -27px;
-        margin-right: -8px;*/
+    font-size: 3.2vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 14.3%;
+    padding-bottom: 8px;
+    position: relative;
 }
 
 .phone_number a:after {
@@ -87,13 +94,17 @@ footer {
     background-image: url("../images/mobile icon.png");
     background-size: contain;
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin-bottom: -10px;
+    width: 9vw;
+    min-width: 30px;
+    height: 9vw;
+    min-height: 30px;
+    position: absolute;
+    top: -36%;
+    right: 0;
 }
 
 .content_wrapper {
-    padding: 0 55px;
+    padding: 0 12%;
     margin: 11px 0 20px 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -108,9 +119,10 @@ footer {
 }
 
 .webinar_block {
-    max-width: 260px;
+    max-width: 562px;
     width: 100%;
-    height: 220px;
+    height: auto;
+    padding-bottom: 6%;
     background-color: rgba(255, 255, 255, 0.80);
     position: relative;
     display: -webkit-box;
@@ -131,9 +143,12 @@ footer {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 120px;
-    height: 25px;
+    max-width: 45.3%;
+    width: 100%;
     background: red;
+    font-size: 3.4vw;
+    letter-spacing: 1px;
+    padding: 3% 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -145,49 +160,55 @@ footer {
     align-items: center;
     color: #fff;
     font-family: "Muller Bold", sans-serif;
-    letter-spacing: -1.3px;
 }
 
 .webcam {
-    width: 30px;
-    height: 30px;
+    max-width: 7%;
+    width: 100%;
+    padding-top: 7%;
+    margin: 3%;
+    height: 0;
     background: url("../images/cam.png");
-    background-size: 17px;
     background-repeat: no-repeat;
     background-position: center;
     -ms-flex-item-align: end;
     align-self: flex-end;
+    background-size: contain;
 }
 
 .webinar_logo {
-    width: 80px;
-    height: 80px;
-    background: url("../images/IELTS.jpg");
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 25%;
+    width: 100%;
+    padding-top: 25%;
+    height: 0;
+    margin-top: -15px;
+    background: url("../images/ielts.jpg");
     background-size: contain;
     border-radius: 50%;
-    margin-top: -5px;
+
 }
 
 .webinar_title {
     text-align: center;
-    margin-top: 7px;
-    font-size: 12px;
-    line-height: 13px;
     letter-spacing: 0.4px;
     color: #3a3a3a;
+    margin-top: 18px;
+    font-size: 3.7vw;
+    line-height: 3.9vw;
 }
 
 .webinar_date_block {
     width: 100%;
-    padding: 0 20px;
-    margin-top: 9px;
+    padding: 0 9%;
+    margin-top: 6vw;
 }
 
 .timezone {
     text-align: end;
-    font-size: 12px;
     color: #6a6a6a;
-    padding-right: 7px;
+    font-size: 3.3vw;
 }
 
 .palka {
@@ -203,13 +224,12 @@ footer {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-size: 20px;
+    margin-top: 6px;
 }
 
 .webinar_date span {
     font-family: "Muller Bold", sans-serif;
-    font-size: 30px;
-    letter-spacing: -1.2px;
+    font-size: 7.4vw;
     color: #434343;
 }
 
@@ -224,21 +244,22 @@ footer {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    max-width: 260px;
+    max-width: 562px;
     width: 100%;
     color: #fff;
-    margin-top: 20px;
+    margin-top: 38px;
 }
 
 .registration_form input {
     width: 100%;
     background-color: transparent;
-    margin-top: 12px;
-    height: 38px;
+    margin-top: 16px;
+    height: 11vw;
     border: 1px solid white;
-    padding-left: 10px;
+    padding-left: 4%;
     position: relative;
     color: #fff;
+    font-size: 4vw;
 }
 
 .registration_form input:nth-child(1) {
@@ -262,21 +283,25 @@ footer {
 }
 
 .registration_form label {
-    margin-top: 10px;
+    margin-top: 29px;
 }
 
 .registration_form span, .registration_form span > a {
     font-family: "Muller Reg", sans-serif;
-    font-size: 12px;
+    font-size: 3vw;
     letter-spacing: 0.3px;
     margin-bottom: 2px;
 }
-
+.registration_form span > a{
+    maring-top: 10px
+}
 .registration_form .reg_submit {
-    height: 50px;
+    height: 14vw;
     background-color: #085484;
     color: #fff;
-    font-size: 18px;
+    font-size: 4.3vw;
+    margin-top: 8%;
+    padding: 0;
 }
 
 .custom_checkbox {
@@ -289,18 +314,21 @@ footer {
 
 .custom_checkmark {
     display: block;
-    padding-left: 24px;
+    padding-left: 11%;
 }
 
 .custom_checkmark:before {
     content: '';
     left: 0;
     display: block;
-    width: 14px;
-    height: 14px;
     border: 1px solid white;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.31);
+
+    max-width: 7.1%;
+    width: 100%;
+    height: 0;
+    padding-top: 7.1%;
 }
 
 .custom_checkmark:after {
@@ -310,21 +338,19 @@ footer {
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    border: solid #403838;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 2.6%;
+    top: 4%;
+    width: 2%;
+    height: 48%;
 }
 
 .custom_checkbox input:checked ~ .custom_checkmark:after {
     opacity: 1;
 }
 
-.custom_checkmark:after {
-    left: 6px;
-    top: 1px;
-    width: 4px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 1px 1px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
 
