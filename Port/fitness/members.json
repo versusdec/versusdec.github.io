@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "name": "Александр Логвинов",
+    "img": "./media/team/bd8faf0d71df3a6c4e43164648316998.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Яна Курова",
+    "img": "./media/team/2bf11214e061d7160822391ff553501e.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Юлия Балахонцева",
+    "img": "./media/team/7664052eee957b94f49b62d2fdf94dcc.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Владимир Зырянов",
+    "img": "./media/team/e12ca5dfb5135fa25c49c1f31adf56da.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Роман Мазниченко",
+    "img": "./media/team/6f52cd77c26db130071b5cc9b75c8634.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Александр Мишин",
+    "img": "./media/team/f7cfca4506036d615e041a5466390841.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Николай Пученкин",
+    "img": "./media/team/8eebba471d86f2e06e8f52866a1ed4ae.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Викентий Омышев",
+    "img": "./media/team/c16dcc5238eb411a195aa02d95aa68da.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Александр Петров",
+    "img": "./media/team/26e29567d58c7c8717fd8eac5a806e12.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Анна Рудницкая",
+    "img": "./media/team/9c7d98358870e2ba46af8b3d4e8a0d9e.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Мария Титова",
+    "img": "./media/team/7b9d1014d84cdcfd498eac310855cf7e.jpg"
+  }
+]

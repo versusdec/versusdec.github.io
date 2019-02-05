@@ -1,0 +1,356 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Geo, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/backgrounds/background.jpg');
+    background-attachment: fixed;
+    background-position: 35%;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    z-index: -1;
+    background-size: cover;
+}
+
+.header {
+    padding: 28px 37px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    color: #fff;
+    font-size: 3vw;
+    letter-spacing: 1px;
+}
+
+.logo {
+    height: 12vw;
+}
+
+.phone_number {
+    color: #fff;
+    font-size: 3.2vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 14.3%;
+    padding-bottom: 8px;
+    position: relative;
+}
+
+.phone_number a:after {
+    content: '';
+    background-image: url("../images/mobile icon.png");
+    background-size: contain;
+    display: inline-block;
+    width: 9vw;
+    min-width: 30px;
+    height: 9vw;
+    min-height: 30px;
+    position: absolute;
+    top: -36%;
+    right: 0;
+}
+
+.content_wrapper {
+    padding: 0 12%;
+    margin: 11px 0 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.webinar_block {
+    max-width: 562px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 6%;
+    background-color: rgba(255, 255, 255, 0.80);
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.webinar_head {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 45.3%;
+    width: 100%;
+    background: red;
+    font-size: 3.4vw;
+    letter-spacing: 1px;
+    padding: 3% 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Muller Bold", sans-serif;
+}
+
+.webcam {
+    max-width: 7%;
+    width: 100%;
+    padding-top: 7%;
+    margin: 3%;
+    height: 0;
+    background: url("../images/cam.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    background-size: contain;
+}
+
+.webinar_logo {
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 25%;
+    width: 100%;
+    padding-top: 25%;
+    height: 0;
+    margin-top: -15px;
+    background: url("../images/IELTS.jpg");
+    background-size: contain;
+    border-radius: 50%;
+
+}
+
+.webinar_title {
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #3a3a3a;
+    margin-top: 18px;
+    font-size: 3.7vw;
+    line-height: 3.9vw;
+}
+
+.webinar_date_block {
+    width: 100%;
+    padding: 0 9%;
+    margin-top: 6vw;
+}
+
+.timezone {
+    text-align: end;
+    color: #6a6a6a;
+    font-size: 3.3vw;
+}
+
+.palka {
+    padding-top: 10%;
+    width: 1px;
+    background-color: #6a6a6a;
+}
+
+.webinar_date {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.webinar_date span {
+    font-family: "Muller Bold", sans-serif;
+    font-size: 7.4vw;
+    color: #434343;
+}
+
+.registration_form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 562px;
+    width: 100%;
+    color: #fff;
+    margin-top: 38px;
+}
+
+.registration_form input {
+    width: 100%;
+    background-color: transparent;
+    margin-top: 16px;
+    height: 11vw;
+    border: 1px solid white;
+    padding-left: 4%;
+    position: relative;
+    color: #fff;
+    font-size: 4vw;
+}
+
+.registration_form input:nth-child(1) {
+    margin-top: 0;
+}
+
+.registration_form input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.registration_form input:-ms-input-placeholder {
+    color: #fff;
+}
+
+.registration_form input::-ms-input-placeholder {
+    color: #fff;
+}
+
+.registration_form input::placeholder {
+    color: #fff;
+}
+
+.registration_form label {
+    margin-top: 29px;
+}
+
+.registration_form span, .registration_form span > a {
+    font-family: "Muller Reg", sans-serif;
+    font-size: 3vw;
+    letter-spacing: 0.3px;
+    margin-bottom: 2px;
+}
+.registration_form span > a{
+    maring-top: 10px
+}
+.registration_form .reg_submit {
+    height: 14vw;
+    background-color: #085484;
+    color: #fff;
+    font-size: 4.3vw;
+    margin-top: 8%;
+    padding: 0;
+}
+
+.custom_checkbox {
+    position: relative;
+}
+
+.custom_checkbox input {
+    display: none;
+}
+
+.custom_checkmark {
+    display: block;
+    padding-left: 11%;
+}
+
+.custom_checkmark:before {
+    content: '';
+    left: 0;
+    display: block;
+    border: 1px solid white;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.31);
+
+    max-width: 7.1%;
+    width: 100%;
+    height: 0;
+    padding-top: 7.1%;
+}
+
+.custom_checkmark:after {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border: solid #403838;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 2.6%;
+    top: 4%;
+    width: 2%;
+    height: 48%;
+}
+
+.custom_checkbox input:checked ~ .custom_checkmark:after {
+    opacity: 1;
+}
+
+
