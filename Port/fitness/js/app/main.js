@@ -245,7 +245,7 @@ include('./js/vendors/jquery-3.3.1.min.js', function () {
         });
 
         function getPopContent(index, target) {
-            ajaxGet('../../offer.json', function (resp) {
+            ajaxGet('offer.json', function (resp) {
                 //$('.p_block_title').text(resp[index].title);
                 $(target).text(resp[index].content);
             });
@@ -281,8 +281,8 @@ include('./js/vendors/jquery-3.3.1.min.js', function () {
         let index = window.location.hash.substr(1);
         let img;
         ajaxGet('members.json', function (resp) {
-            $('[data-get="name"]').text(resp[0].name);
-            $('[data-get="img"]').attr('src', resp[0].img)
+            $('[data-get="name"]').text(resp[index-1].name);
+            $('[data-get="img"]').attr('src', resp[index-1].img)
         });
     }
 
