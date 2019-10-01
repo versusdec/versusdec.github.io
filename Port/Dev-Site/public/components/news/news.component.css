@@ -1,0 +1,74 @@
+
+section.news{
+    background: url("../../img/bg-city.png") no-repeat left -162px;
+/*    padding-top: 58px;*/
+}
+
+.news .block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-block {
+    width: 100%;
+}
+
+.news .district-news, .news .companies-news {
+    max-width: 48.719%;
+}
+
+.news .news-wrapper{
+    padding-top: 41px;
+}
+
+.news-item {
+    box-shadow: 10px 10px 20px 10px #00000010;
+    width: 100%;
+    min-height: 167px;
+    margin-bottom: 10px;
+    padding: 18px 33px 24px 29px;
+    background-color: #fff;
+}
+
+.news-item__date{
+    font-size: 12px;
+    color: #00d082;
+    margin-bottom: 10px;
+}
+
+.news-item__title{
+    padding-left: 2px;
+    font-family: "Muller Medium", sans-serif;
+    font-size: 20px;
+    line-height: 19px;
+    height: 57px;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+
+.news-item__button{
+    margin-left: auto;
+}
+.news-item__short-desc{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+@media screen and (max-width: 960px){
+    .news .block{
+        flex-direction: column;
+    }
+    .news .district-news, .news .companies-news {
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .news .district-news, .news .companies-news{
+        margin-bottom: 30px;
+    }
+    .news-item__title{
+        height: auto;
+    }
+
+}

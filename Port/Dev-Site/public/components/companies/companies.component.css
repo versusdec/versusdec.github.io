@@ -1,0 +1,375 @@
+/*
+
+.companies {
+    padding-top: 59px;
+}
+*/
+
+.companies-wrapper {
+    display: flex;
+    padding: 40px 0 0 310px;
+    margin-bottom: 82px;
+    position: relative;
+    transition: width 0.3s;
+}
+
+
+.companies-list {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.companies-list li {
+    margin-bottom: 12px;
+    margin-right: 55px;
+    /*white-space: nowrap;*/
+    cursor: pointer;
+    max-width: 270px;
+    width: 100%;
+}
+
+.companies-wrapper li .custom-checkbox {
+    display: inline-block;
+    font-size: 18px;
+    padding-top: 4px;
+}
+
+.companies-list-wrapper {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    height: 329px;
+    width: 270px;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+.companies-list-wrapper .button {
+    position: absolute;
+    bottom: 8px;
+}
+
+
+/*.companies-list__more{
+    background: #fff;
+    position: absolute;
+    left: 255px;
+    height: 330px;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: ;
+}*/
+
+/*.companies-list li:before {
+    content: url("../../img/tick.png");
+    margin-right: 20px;
+}*/
+
+.companies-list .button {
+    margin-top: 26px;
+}
+
+
+.map-wrapper {
+    max-width: 900px;
+    width: 100%;
+    height: 329px;
+    background: #d8d8d8;
+}
+
+.company-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company {
+    margin-left: 2.565%;
+    flex-basis: 272px;
+    flex-grow: 1;
+    width: 100%;
+    min-height: 176px;
+    box-shadow: 10px 10px 20px 10px #00000010;
+    padding: 19px 15px;
+    text-align: center;
+
+}
+
+.company:hover {
+    box-shadow: 10px 10px 20px 10px #00000020;
+}
+
+.company-wrapper > a:first-child {
+    margin-left: 0;
+}
+
+.company-logo {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #d8d8d8;
+    margin: 0 auto 13px auto;
+}
+
+.company-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.company-name {
+    font-family: "Muller Regular", sans-serif;
+    color: #005fd1;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.company-description {
+    font-size: 14px;
+    letter-spacing: -0.1px;
+    line-height: 16px;
+}
+
+.expanded {
+    width: 100%;
+}
+
+.company-land-wrapper {
+    width: 100%;
+    height: 230px;
+    margin: 16px 0;
+    position: relative;
+}
+
+.company-land-wrapper .block {
+    height: 100%;
+}
+
+.company-land__image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #d8d8d8;
+}
+
+.company-land__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.company-land-inner-wrapper {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    padding: 14px 0;
+    position: relative;
+}
+
+.company-land-wrapper .company-name {
+    font-family: "Muller Medium", sans-serif;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.company-land-wrapper .button-xxl {
+    margin-right: 30px;
+    bottom: -33px;
+    position: relative;
+}
+
+.company-land-wrapper .sign-up-for-updates {
+    margin-bottom: 17px;
+}
+
+.company-land-wrapper .buttons-wrapper {
+    margin-left: auto;
+    padding-bottom: 5px;
+}
+
+.company-menu {
+    padding-top: 6px;
+}
+
+.company-menu .menu {
+    display: flex;
+    padding-left: 302px;
+}
+
+.company-menu .menu * {
+    font-size: 14px;
+}
+
+.company-menu .menu li:after {
+    content: '|';
+    padding: 0 2px 0 5px;
+}
+
+.company-menu .menu li:last-child:after {
+    content: '';
+}
+
+.side-menu-page .tabs-section {
+    padding-top: 66px;
+}
+
+.catalog-wrapper.company-catalog {
+    padding: 57px 0 0 72px;
+}
+
+.company-catalog-section {
+    padding-top: 72px;
+}
+
+.company-catalog-section .catalog-handler {
+    padding-top: 25px;
+}
+
+.page-content .discounts-wrapper {
+    padding-left: 70px;
+    padding-top: 55px;
+}
+
+.page-content .discounts-wrapper .discount-item {
+    width: 47%;
+}
+
+.page-content .discounts-wrapper .discount-item:nth-child(2n) {
+    margin-right: 0;
+}
+
+.page-content .discounts-wrapper .discount-item:nth-child(3n) {
+    margin-right: 2.45%;
+}
+
+.page-content .news-block {
+    padding-top: 8px;
+}
+
+.page-content .news-block .news-wrapper {
+    padding-top: 64px;
+}
+
+.page-content .news-block .news-wrapper .news-item {
+    margin-bottom: 31px;
+}
+
+.page-content .news-block > .title {
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 960px) {
+    .expanded .companies-list {
+        overflow-x: auto;
+    }
+
+    .company-land-inner-wrapper .company-name {
+        position: absolute;
+        top: 0;
+        box-shadow: 0px 0px 10px 5px #fffc;
+        background: #fffc;
+    }
+
+    .company-menu .menu {
+        padding: 20px 0 0 0;
+    }
+
+    .page-content .discounts-wrapper {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .companies-wrapper {
+        flex-direction: column-reverse;
+        padding-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 0;
+    }
+
+    .map-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .companies-list li {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .company-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .company {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .company-wrapper .company:nth-child(1n) {
+        margin-left: 0;
+    }
+
+    .companies-list-wrapper {
+        position: relative;
+    }
+
+    .expanded {
+        width: auto;
+        height: auto;
+    }
+
+    .company-land-inner-wrapper {
+        align-items: center;
+        flex-direction: column;
+        padding: 40px 0 0 0;
+    }
+
+    .company-land-wrapper .button-xxl {
+        margin-right: 0;
+        bottom: 10px;
+    }
+
+    .company-land-wrapper .buttons-wrapper {
+        margin-left: 0;
+    }
+
+    .company-menu .menu {
+        display: block;
+    }
+
+    .company-menu .menu li:after {
+        content: '';
+    }
+
+    .company-menu .menu * {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .side-menu-page .tabs-section {
+        padding-top: 30px;
+    }
+
+    .page-content .discounts-wrapper .discount-item:nth-child(1n) {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .page-content .news-block .news-wrapper, .page-content .discounts-wrapper, .company-catalog-section .catalog-handler {
+        padding-top: 0;
+    }
+
+}

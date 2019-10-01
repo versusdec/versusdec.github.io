@@ -1,0 +1,137 @@
+/*.catalog {
+    padding-top: 52px;
+}*/
+
+.catalog .offer {
+    margin-right: 6.423%;
+}
+
+.catalog-wrapper {
+    padding: 40px 0 0 40px;
+    display: flex;
+}
+
+.catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.catalog-list-wrapper{
+    width: 100%;
+}
+.catalog-item {
+    width: 44.5%;
+    min-height: 110px;
+    background-color: #fff;
+    padding: 2.3% 3.4%;
+    box-shadow: 0 2px 10px 0 #00000020;
+    display: flex;
+    margin: 0 29px 35px 0;
+}
+
+.catalog-item:nth-child(2n) {
+    margin-right: 0;
+}
+
+.catalog-list-wrapper .catalog-item {
+    width: 48.4%;
+}
+
+.catalog-item:hover {
+    box-shadow: 0 2px 10px 0 #00000040;
+}
+
+.catalog-item__image {
+    width: 70px;
+    height: 69px;
+    margin-right: 30px;
+    background-color: #d8d8d8;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.catalog-item__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.catalog-item__name {
+    font-family: "Muller Medium", sans-serif;
+    font-size: 18px;
+    color: #005fd1;
+}
+
+.catalog-item__short-desc {
+    font-size: 16px;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+}
+
+.catalog-item__price {
+    font-family: "Muller Medium", sans-serif;
+    font-size: 20px;
+    color: #00d082;
+    letter-spacing: -1.3px;
+}
+
+.catalog-item-wrapper {
+    display: flex;
+}
+
+.catalog-item__availability span {
+    color: #00d082;
+}
+
+.catalog-item__desc-wrapper .title {
+    font-family: "Muller Medium", sans-serif;
+    font-size: 18px;
+    color: #005fd1;
+    margin: 30px 0;
+}
+.catalog-item__desc-wrapper{
+    padding-left: 30px;
+}
+.catalog-item__desc-wrapper .catalog-item__name{
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.catalog-item__desc-wrapper .button{
+    margin-top: 30px;
+}
+
+.catalog-item__desc{
+    font-size: 18px;
+}
+@media screen and (max-width: 960px) {
+    .catalog .offer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .catalog-item {
+        width: 100%;
+        margin-right: 0;
+        height: auto;
+    }
+
+    .catalog-wrapper {
+        padding-left: 0;
+    }
+
+    .catalog-item__short-desc {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .catalog-item__image {
+        margin: auto 15px auto 0;
+    }
+
+    .catalog-item__desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

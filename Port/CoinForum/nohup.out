@@ -1,0 +1,20 @@
+PHP Warning:  Error while sending STMT_SEND_LONG_DATA packet. PID=5849 in /www/core/database.php on line 458
+: [ERROR] 2019.01.21 18:14:37 DB ERROR:Incorrect string value: '\xF0\x9F\x98\x8F\xE2\x98...' for column `forum`.`messages`.`text` at row 1
+: [ERROR] 2019.01.21 18:14:37 SQL: INSERT INTO `messages`(`channel_id`,`date`,`id`,`reply_id`,`text`,`user_id`) VALUES (?,?,?,?,?,?) ON DUPLICATE KEY UPDATE `channel_id` = VALUES(`channel_id`),`date` = VALUES(`date`),`id` = VALUES(`id`),`reply_id` = VALUES(`reply_id`),`text` = VALUES(`text`),`user_id` = VALUES(`user_id`)
+: [ERROR] 2019.01.21 18:14:37 
+PHP Fatal error:  Uncaught Exception: Incorrect string value: '\xF0\x9F\x98\x8F\xE2\x98...' for column `forum`.`messages`.`text` at row 1 in /www/core/database.php:472
+Stack trace:
+#0 /www/core/database.php(369): core\database->_query('INSERT INTO `me...', 'messages', Array)
+#1 /www/dump.php(35): core\database->multi_insert('messages', Array, true)
+#2 {main}
+  thrown in /www/core/database.php on line 472
+PHP Warning:  Error while sending STMT_SEND_LONG_DATA packet. PID=11015 in /www/core/database.php on line 458
+: [ERROR] 2019.01.22 11:57:31 DB ERROR:Incorrect string value: '\xF0\x9F\x98\x8F' for column `forum`.`messages`.`text` at row 1
+: [ERROR] 2019.01.22 11:57:31 SQL: INSERT INTO `messages`(`channel_id`,`date`,`id`,`reply_id`,`text`,`user_id`) VALUES (?,?,?,?,?,?) ON DUPLICATE KEY UPDATE `channel_id` = VALUES(`channel_id`),`date` = VALUES(`date`),`id` = VALUES(`id`),`reply_id` = VALUES(`reply_id`),`text` = VALUES(`text`),`user_id` = VALUES(`user_id`)
+: [ERROR] 2019.01.22 11:57:31 
+PHP Fatal error:  Uncaught Exception: Incorrect string value: '\xF0\x9F\x98\x8F' for column `forum`.`messages`.`text` at row 1 in /www/core/database.php:472
+Stack trace:
+#0 /www/core/database.php(369): core\database->_query('INSERT INTO `me...', 'messages', Array)
+#1 /www/dump.php(35): core\database->multi_insert('messages', Array, true)
+#2 {main}
+  thrown in /www/core/database.php on line 472

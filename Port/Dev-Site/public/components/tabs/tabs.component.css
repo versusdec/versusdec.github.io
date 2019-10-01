@@ -1,0 +1,63 @@
+.tabs-wrapper {
+    width: 100%;
+    min-height: 270px;
+    padding-right: 30px;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #00d082;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
+
+.tab {
+    width: 200px;
+    height: 43px;
+    font-family: "Muller Medium",sans-serif;
+    font-size: 20px;
+    color: #005fd1;
+    cursor: pointer;
+    border-radius: 15px 15px 0 0;
+    box-shadow: inset 0 12px 20px 0 #00000015;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    text-align: center;
+    padding: 0 5px;
+
+}
+
+.tab:hover{
+    box-shadow: inset 0 12px 20px 0 #00000025;
+}
+
+.active-tab{
+    background: #005fd1;
+    color: #fff;
+}
+
+.active-tab:hover{
+    background: #0058c7;
+}
+
+.tab-content{
+    display: none;
+    padding-top: 25px;
+    /*height: 200px;*/
+    overflow-y: auto;
+    font-size: 18px;
+}
+
+.active-tab-content{
+    display: block;
+}
+
+@media screen and (max-width: 960px){
+    .tabs{
+
+    }
+}

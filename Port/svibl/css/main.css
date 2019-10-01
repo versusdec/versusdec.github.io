@@ -1,0 +1,17 @@
+@import "base.css";
+@import "../components/breadcrumb/breadcrumb.component.css";
+@import "../components/header/header.component.css";
+@import "../components/companies/companies.component.css";
+@import "../components/companies/company.contacts.component.css";
+@import "../components/news/news.component.css";
+@import "../components/catalog/catalog.component.css";
+@import "../components/specialOffers/specialOffers.component.css";
+@import "../components/jobs/jobs.component.css";
+@import "../components/forum/forum.component.css";
+@import "../components/footer/footer.component.css";
+@import "../components/tabs/tabs.component.css";
+@import "../components/sideMenu/sideMenu.component.css";
+@import "../components/catalog/catalogHandler.css";
+@import "../components/gallery/gallery.css";
+@import "../components/companies/company.jobs.component.css";
+@import "../components/customSelect/customSelect.component.css";

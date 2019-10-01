@@ -2,8 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1b90d28-6550-4ca3-bad5-1f30250cfc18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Port/fitness/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Port/fitness/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Port/fitness/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Port/fitness/js/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Port/fitness/js/app/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/04d995ad31e5f776bccdfba2fc462191.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/23f5e51b233e07e9d3f76cb7b1c7ec3a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/32b2a54364a75ec1dbe2bd7379f814f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/73f14a1f04128a79c2a736ea3db1af0d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/895c4a664ff45f61359b7de875655914.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/e3893922bca05a5ecab08625d2972e02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/e6817543338b844a84fc1c3233a627e4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/fe89dfd2d6ab1d69b774e57fc7f3f754.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/thumb/04d995ad31e5f776bccdfba2fc462191.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/thumb/23f5e51b233e07e9d3f76cb7b1c7ec3a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/thumb/32b2a54364a75ec1dbe2bd7379f814f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/thumb/73f14a1f04128a79c2a736ea3db1af0d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/thumb/895c4a664ff45f61359b7de875655914.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/thumb/e3893922bca05a5ecab08625d2972e02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/thumb/e6817543338b844a84fc1c3233a627e4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/photos/thumb/fe89dfd2d6ab1d69b774e57fc7f3f754.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/services/28a9cb9327e3162a889ea6b443146efc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/services/46222cd94b0a37c19b345daca8226ad9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/services/5f166e7fa5f30c18d41b2c3139b12094.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/services/63646eae904dcefc6b29fc3832565477.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/services/6efddd79985caaa3dfa42b41f56d8c72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/services/a1ad5faf759b1bb3b0ba885c3eb6f7d6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/services/a6c8b01e812dd181edd31c62031de948.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/services/c8621d993797445d9a2a219440702bf1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/services/cc52e06add850e22c90442f2a33271ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/services/d4f11ccdf3b6d29459d240875806afb0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/services/f2f0b489a689e4680ac0244666eda1a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/services/fa826b45fbc951e78b65a037e719e228.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/sliders/5f2c59adbd084b81ba9ca73173b58f17.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/sliders/7eb0cc04ce85f73e36782ba32968520a.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/sliders/af69d54f984eb9a5b0327b4e7aec3513.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/sliders/dae86f570436a38a0837b68027cc45f0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/sliders/dce8be9011ea8b26be26a728b75c321c.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/04cc41f1a26f9019b34510bd607a757c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/26e29567d58c7c8717fd8eac5a806e12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/2bf11214e061d7160822391ff553501e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/2d5d68c87769a7a3d51db945236428bd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/6f52cd77c26db130071b5cc9b75c8634.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/7664052eee957b94f49b62d2fdf94dcc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/7b9d1014d84cdcfd498eac310855cf7e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/8a6965bbaee204d50ea3b1477a44cb8a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/8eebba471d86f2e06e8f52866a1ed4ae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/9c7d98358870e2ba46af8b3d4e8a0d9e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/bd8faf0d71df3a6c4e43164648316998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/c16dcc5238eb411a195aa02d95aa68da.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/e12ca5dfb5135fa25c49c1f31adf56da.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Port/fitness/media/team/f7cfca4506036d615e041a5466390841.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,26 +61,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Port/fitness/js/app/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="284" column="58" selection-start-line="284" selection-start-column="58" selection-end-line="284" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Port/fitness/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="436" column="99" lean-forward="true" selection-start-line="434" selection-start-column="23" selection-end-line="436" selection-end-column="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/alexmotors/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="16" selection-start-line="16" selection-end-line="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/alexmotors/css/main.css">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/about</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,8 +97,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Port/fitness/index.html" />
         <option value="$PROJECT_DIR$/Port/fitness/js/app/main.js" />
+        <option value="$PROJECT_DIR$/Port/fitness/about.html" />
+        <option value="$PROJECT_DIR$/Port/fitness/index.html" />
       </list>
     </option>
   </component>
@@ -50,11 +109,13 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -65,34 +126,18 @@
             <path>
               <item name="Github Pages" type="b2602c69:ProjectViewProjectNode" />
               <item name="Github Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Port" type="462c0819:PsiDirectoryNode" />
+              <item name="alexmotors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Github Pages" type="b2602c69:ProjectViewProjectNode" />
               <item name="Github Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Port" type="462c0819:PsiDirectoryNode" />
-              <item name="fitness" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Github Pages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Github Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Port" type="462c0819:PsiDirectoryNode" />
-              <item name="fitness" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Github Pages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Github Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Port" type="462c0819:PsiDirectoryNode" />
-              <item name="fitness" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="alexmotors" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -100,6 +145,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -113,6 +159,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Port/apoholtz/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -123,25 +179,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549368968816</updated>
-      <workItem from="1549368972514" duration="242000" />
+      <workItem from="1549368972514" duration="2230000" />
+      <workItem from="1549906230709" duration="343000" />
+      <workItem from="1569947047581" duration="280000" />
+      <workItem from="1569947508527" duration="54000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242000" />
+    <option name="totallyTimeSpent" value="2907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15565032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -149,11 +202,16 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20260021" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,22 +236,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Port/index.html">
+    <entry file="file://$PROJECT_DIR$/Port/fitness/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Port/fitness/profile.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Port/fitness/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Port/fitness/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="436" column="99" lean-forward="true" selection-start-line="434" selection-start-column="23" selection-end-line="436" selection-end-column="99" />
+        <state relative-caret-position="315">
+          <caret line="115" column="37" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Port/fitness/js/app/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="284" column="58" selection-start-line="284" selection-start-column="58" selection-end-line="284" selection-end-column="58" />
+        <state relative-caret-position="1258">
+          <caret line="305" column="21" selection-start-line="305" selection-start-column="21" selection-end-line="305" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Port/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Port/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alexmotors/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alexmotors/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

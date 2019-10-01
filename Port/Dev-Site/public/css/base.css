@@ -1,0 +1,461 @@
+@font-face {
+    font-family: 'Muller Medium';
+    src: url('../fonts/MullerMedium.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/MullerMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/MullerMedium.woff') format('woff'), /* Pretty Modern Browsers */ url('../fonts/MullerMedium.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/MullerMedium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Muller Regular';
+    src: url('../fonts/MullerRegular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Muller Light';
+    src: url('../fonts/MullerLight.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Muller Light Italic';
+    src: url('../fonts/MullerLightItalic.otf') format("opentype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Muller Light", sans-serif;
+    font-size: 14px;
+    color: #565656;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+}
+
+a:hover {
+    color: #000;
+}
+
+input[type='text'] {
+    padding-left: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus {
+
+}
+
+main{
+    min-height: calc(100vh - 486px);
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.offer > * {
+    background: #d8d8d8;
+}
+
+.full-width-offer {
+    width: 100%;
+    height: 230px;
+    margin: 24px 0;
+}
+
+.vertical-offer {
+    width: 161px;
+    height: 400px;
+}
+
+.block {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.discount-value {
+    font-family: "Muller Medium", sans-serif;
+    font-size: 20px;
+    color: #16d289;
+}
+
+/*--------- Title ---------*/
+.title {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.title-text {
+    font-family: "Muller Medium", sans-serif;
+    color: #005fd1;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.green-bar {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    border-top: 1px solid #00d082;
+    margin: 0 28px 0 23px;
+}
+
+.no-button .green-bar {
+    margin-right: 0;
+}
+
+.title .button {
+    bottom: 11px;
+    position: relative;
+}
+
+/*------ END Title -------*/
+
+/*-------- Buttons -------*/
+.button {
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: lowercase;
+    box-shadow: 0 2px 10px 0 #00000020;
+}
+
+a.button:hover {
+    color: #fff;
+}
+
+.button-white {
+    color: #005fd1;
+    background: #fff;
+}
+
+.button-white:hover {
+    box-shadow: 0 2px 10px 0 #00000030;
+}
+
+.button-blue {
+    background-color: #005fd1;
+    color: #fff;
+}
+
+.button-blue:hover {
+    background-color: #0058c7;
+}
+
+.button-green {
+    background-color: #00d082;
+    color: #fff;
+}
+
+.button-green:hover {
+    background-color: #00c680;
+}
+
+.button .button-arrow {
+    display: block;
+    height: 14px;
+    width: 14px;
+    background: url("../img/chevron-up.png") no-repeat;
+    margin: 5px 0 0 6px;
+}
+
+.button-xs {
+    width: 100px;
+    height: 29px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.button-sm {
+    width: 166px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.button-md {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.button-lg {
+    width: 232px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.button-xl {
+    width: 270px;
+    height: 40px;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.button-xxl {
+    width: 270px;
+    height: 57px;
+    font-size: 14px;
+    border-radius: 20px;
+    text-transform: none;
+}
+
+.button.bordered {
+    border: 1px solid #005fd1;
+}
+
+.side-menu-page .block {
+    padding-left: 230px;
+}
+
+/*------- END Buttons --------*/
+
+/*------Social buttons--------*/
+.social-links {
+    display: flex;
+}
+
+.social-links .social {
+    margin-right: 15px;
+}
+
+.share {
+    color: #005fd1;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.favorite {
+    color: #005fd1;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.favorite:before {
+    content: url("../img/favorite-heart-button.png");
+    margin-right: 10px;
+}
+
+.favorite:hover {
+    filter: contrast(3);
+}
+
+.share:hover {
+    filter: contrast(3);
+}
+
+.share:before {
+    content: url("../img/share.png");
+    margin-right: 5px;
+}
+
+.social {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social:hover {
+    filter: contrast(3);
+}
+
+.vk {
+    background-image: url("../img/vkontakte-logo.png");
+}
+
+.fb {
+    background-image: url("../img/facebook.png");
+}
+
+.ok {
+    background-image: url("../img/ok.png");
+}
+
+.insta {
+    background-image: url("../img/instagram.png");
+}
+
+/*------END Social buttons-----*/
+
+.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hidden{
+    display: none;
+}
+/*
+.inactive{
+    visibility: hidden;
+    opacity: 0;
+}*/
+
+.fixed {
+    position: fixed !important;
+}
+
+section {
+    padding-top: 58px;
+}
+
+.mainpage-forum, .special-offers {
+    padding-top: 27px;
+}
+
+/*----- Custom Checkbox -----*/
+/*.custom-checkbox-form{
+    position: relative;
+}*/
+.custom-checkbox {
+    position: relative;
+    padding-left: 31px;
+    transform: scale(1);
+}
+
+.custom-checkbox:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #00d082;
+    transition: all 0.1s;
+}
+
+.custom-checkbox-form:hover > .custom-checkbox:before {
+    transform: translate(0, -50%) scale(1.2);
+}
+
+input[type=checkbox] + .custom-checkbox:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    width: 0px;
+    height: 12px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='13.999999999999998' height='13.999999999999998' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle/%3E%3Cg%3E%3Ctitle%3Ebackground%3C/title%3E%3Crect fill='none' id='canvas_background' height='16' width='16' y='-1' x='-1'/%3E%3C/g%3E%3Cg%3E%3Ctitle%3ELayer 1%3C/title%3E%3Cpath fill='%23ffffff' id='_Compound_Path_' d='m5.050195,11.426339l-3.89787,-3.890563l1.07269,-1.072687l2.825181,2.819693l6.724875,-6.712084l1.072692,1.072693l-7.797567,7.782949'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translate(0, -50%);
+    transition: all 0.3s;
+}
+
+input[type=checkbox]:checked + .custom-checkbox:after {
+    width: 12px;
+}
+
+
+/*----- END Custom Checkbox -----*/
+
+.company-list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.company-list-wrapper .company {
+    margin-bottom: 30px;
+}
+
+.search-form {
+    width: 100%;
+    display: flex;
+}
+
+.search-form .search-bar {
+    width: 84%;
+    margin-right: 30px;
+}
+
+.company-list-wrapper .search-form {
+    margin-bottom: 30px;
+}
+
+.catalog-item-wrapper .gallery, .catalog-item-wrapper .catalog-item__desc-wrapper{
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding-top: 30px;
+    }
+
+    /*----- Buttons -----*/
+    .button-lg {
+        width: 200px;
+    }
+
+    .button-md {
+        width: 172px;
+    }
+
+    .button-sm {
+        width: 110px;
+    }
+
+    .button-lg, .button-md, .button-sm {
+        height: 35px;
+        font-size: 16px;
+    }
+
+
+    /*----- END Buttons -----*/
+    /*-----TITLE-----*/
+    .title-text {
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .title {
+        flex-wrap: wrap;
+    }
+
+    .title .green-bar {
+        display: none;
+    }
+
+    /*----- END title -----*/
+    .favorite {
+        font-size: 14px;
+    }
+
+    .side-menu-page .block {
+        padding-left: 30px;
+    }
+}
+

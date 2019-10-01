@@ -1,0 +1,61 @@
+.page-content .jobs-wrapper{
+    padding-top: 55px;
+}
+
+.company-jobs {
+    position: relative;
+}
+
+.company-job-item {
+
+}
+
+.company-job-item__title {
+    color: #00d082;
+    font-family: "Muller Medium", sans-serif;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.company-jobs-item__salary {
+    margin-bottom: 60px;
+    font-family: "Muller Medium", sans-serif;
+    font-size: 18px;
+}
+.company-jobs-item__req{
+    margin-bottom: 42px;
+}
+.company-jobs-item__req div:nth-child(1) {
+    font-family: "Muller Medium", sans-serif;
+}
+
+.company-jobs-item__req div {
+    font-size: 18px;
+}
+
+.company-jobs-btns{
+    display: flex;
+    align-items: center;
+}
+
+.company-jobs-btns .button{
+    margin-right: 38px;
+}
+
+.company-jobs .jobs-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    background: url(../../img/bg-office.png) no-repeat 118% 0;
+}
+
+@media screen and (max-width: 768px){
+    .company-jobs .jobs-background {
+        display: none;
+    }
+    .page-content .jobs-wrapper {
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,55 @@
+.company-contacts-wrapper {
+    display: flex;
+    padding-top: 54px;
+}
+
+.company-map {
+    max-width: 500px;
+    width: 100%;
+    height: 437px;
+    background: #d8d8d8;
+    margin-right: 29px;
+}
+
+.company-contacts * {
+    font-size: 18px;
+}
+
+.company-contacts__item {
+    padding-bottom: 24px;
+}
+
+.company-contacts {
+    padding-top: 17px;
+}
+
+.company-contacts .hours {
+    padding-top: 22px;
+}
+
+.company-contacts .address {
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+
+.company-contacts__item-value {
+    padding: 2px 0;
+}
+
+.company-contacts__item-name {
+    color: #005fd1;
+    font-family: "Muller Regular", sans-serif;
+}
+
+.company-contacts .social{
+    width: 23px;
+    height: 23px;
+    margin-right: 26px;
+}
+
+@media screen and (max-width: 960px){
+    .company-contacts-wrapper {
+        flex-direction: column;
+        padding-top: 0;
+    }
+}

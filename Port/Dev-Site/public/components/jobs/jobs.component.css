@@ -1,0 +1,109 @@
+.jobs {
+    /*padding-top: 58px;*/
+    position: relative;
+}
+
+.jobs-wrapper {
+    padding-top: 42px;
+}
+
+.jobs-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -100px;
+    z-index: -1;
+    background: url(../../img/bg-office.png) no-repeat -150px 0;
+}
+
+.jobs-item {
+    display: flex;
+    min-height: 217px;
+    width: 100%;
+    box-shadow: 0 2px 10px 0 #00000020;
+    background: #fff;
+    padding: 30px 70px;
+    margin-bottom: 20px;
+}
+
+.jobs-item__title {
+    font-family: "Muller Medium", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.jobs-item__company {
+    margin-bottom: 15px;
+}
+
+.jobs-item__company > * {
+    color: #b7b7b7;
+}
+
+.jobs-item__company-name {
+    font-family: "Muller Medium", sans-serif;
+    letter-spacing: 1px;
+}
+
+.jobs-item__short-desc {
+    font-size: 16px;
+    line-height: 18px;
+    height: 57px;
+    overflow: hidden;
+}
+
+.jobs-item__info {
+    width: 200px;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.jobs-item__salary {
+    color: #005fd1;
+    font-family: "Muller Medium", sans-serif;
+    font-size: 20px;
+}
+
+.jobs-item__image{
+    background-color: #d8d8d8;
+    width: 58px;
+    height: 58px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 23px 0 27px auto;
+}
+
+.jobs-item__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 768px){
+    .jobs-item__short-desc {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .jobs-item__image{
+        display: none;
+    }
+    .jobs-item{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .jobs-item .button{
+        margin: 0 auto;
+    }
+    .jobs-item__info{
+        width: 100%;
+        text-align: end;
+        margin-bottom: 20px;
+    }
+    .jobs-item__salary{
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+}
