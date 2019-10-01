@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Exo+2:400,700|Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,500,700|Oswald:400,700&display=swap');
 
 body, html {
     margin: 0;
     padding: 0;
     font-family: "Exo 2", sans-serif;
+    color: #1B1B1C;
 }
 
 * {
@@ -12,5 +13,143 @@ body, html {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
+header, footer, article {
+    max-width: 1200px;
+    padding: 0 25px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+article.full-w {
+    max-width: 100%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header a {
+    text-decoration: none;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+header .logo {
+    width: 120px;
+}
+
+header {
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    transition: all 0.2s;
+    position: relative;
+    color: inherit;
+}
+
+a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #1B1B1C;
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+a:hover::after {
+    opacity: 1;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 15px;
+    display: flex;
+}
+
+header nav li {
+    margin: 0 12px;
+}
+
+header > div {
+    padding: 0 15px;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+header .phone {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.phone {
+    position: relative;
+    padding-left: 30px;
+}
+
+.phone::before {
+    content: '';
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-image: url('../img/svg/phone.svg');
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.phone::after {
+    display: none;
+}
+
+header p {
+    font-size: 14px;
+    text-align: right;
+    width: 100%;
+    margin: 0;
+}
+
+button, input[type=button], .btn {
+    border: none;
+    background-color: #00a2ff;
+    border-radius: 100px;
+    color: #fff;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    max-height: 40px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover, input[type=button]:hover, .btn:hover {
+    box-shadow: 0 0 1px 1px #00a2ff;
+}
+
+button:focus {
+    outline: 0;
+}
+
+header .callback-btn{
+    margin-left: 30px;
+}
