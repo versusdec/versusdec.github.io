@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1b90d28-6550-4ca3-bad5-1f30250cfc18" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/alexmotors/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexmotors/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/alexmotors/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexmotors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexmotors/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexmotors/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/alexmotors/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +21,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/alexmotors/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="352" column="31" selection-start-line="352" selection-start-column="31" selection-end-line="352" selection-end-column="31" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
                   <folding>
                     <element signature="e#1594#1600#0" expanded="true" />
                   </folding>
@@ -31,11 +34,27 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/alexmotors/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="501" column="18" selection-start-line="501" selection-start-column="18" selection-end-line="501" selection-end-column="18" />
+                <state relative-caret-position="396">
+                  <caret line="188" column="16" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#9005#10254#2" expanded="true" />
+                    <element signature="e#10306#11817#2" expanded="true" />
+                    <element signature="e#11865#14377#2" expanded="true" />
+                    <element signature="e#14428#16193#2" expanded="true" />
+                    <element signature="e#16245#17289#2" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/alexmotors/css/media.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="677">
+                  <caret line="150" column="18" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -43,8 +62,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/alexmotors/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
+                <state relative-caret-position="201">
+                  <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -57,15 +76,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>/about</find>
-      <find>button</find>
       <find>section</find>
       <find>catalog</find>
+      <find>btn</find>
+      <find>button</find>
+      <find>header</find>
+      <find>menu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -78,9 +101,10 @@
         <option value="$PROJECT_DIR$/Port/fitness/about.html" />
         <option value="$PROJECT_DIR$/Port/fitness/index.html" />
         <option value="$PROJECT_DIR$/alexmotors/js/jquery.min.js" />
-        <option value="$PROJECT_DIR$/alexmotors/js/main.js" />
         <option value="$PROJECT_DIR$/alexmotors/index.html" />
+        <option value="$PROJECT_DIR$/alexmotors/js/main.js" />
         <option value="$PROJECT_DIR$/alexmotors/css/main.css" />
+        <option value="$PROJECT_DIR$/alexmotors/css/media.css" />
       </list>
     </option>
   </component>
@@ -130,6 +154,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -171,12 +196,12 @@
       <workItem from="1569947047581" duration="280000" />
       <workItem from="1569947508527" duration="3857000" />
       <workItem from="1569997527963" duration="227000" />
-      <workItem from="1570024004959" duration="11461000" />
+      <workItem from="1570024004959" duration="16093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18398000" />
+    <option name="totallyTimeSpent" value="23030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -282,27 +307,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alexmotors/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alexmotors/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="352" column="31" selection-start-line="352" selection-start-column="31" selection-end-line="352" selection-end-column="31" />
+        <state relative-caret-position="170">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
             <element signature="e#1594#1600#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/alexmotors/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/alexmotors/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="501" column="18" selection-start-line="501" selection-start-column="18" selection-end-line="501" selection-end-column="18" />
+        <state relative-caret-position="396">
+          <caret line="188" column="16" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
+          <folding>
+            <element signature="e#9005#10254#2" expanded="true" />
+            <element signature="e#10306#11817#2" expanded="true" />
+            <element signature="e#11865#14377#2" expanded="true" />
+            <element signature="e#14428#16193#2" expanded="true" />
+            <element signature="e#16245#17289#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alexmotors/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="150" column="18" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
         </state>
       </provider>
     </entry>
