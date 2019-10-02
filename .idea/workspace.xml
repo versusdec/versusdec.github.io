@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1b90d28-6550-4ca3-bad5-1f30250cfc18" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/alexmotors/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexmotors/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/alexmotors/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexmotors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexmotors/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexmotors/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/alexmotors/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +18,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/alexmotors/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="165" column="22" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
+                <state relative-caret-position="442">
+                  <caret line="352" column="31" selection-start-line="352" selection-start-column="31" selection-end-line="352" selection-end-column="31" />
                   <folding>
                     <element signature="e#1594#1600#0" expanded="true" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#article#3;n#main#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -35,16 +31,16 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/alexmotors/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="649">
-                  <caret line="370" lean-forward="true" selection-start-line="370" selection-end-line="370" />
+                <state relative-caret-position="360">
+                  <caret line="501" column="18" selection-start-line="501" selection-start-column="18" selection-end-line="501" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/alexmotors/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
@@ -83,8 +79,8 @@
         <option value="$PROJECT_DIR$/Port/fitness/index.html" />
         <option value="$PROJECT_DIR$/alexmotors/js/jquery.min.js" />
         <option value="$PROJECT_DIR$/alexmotors/js/main.js" />
-        <option value="$PROJECT_DIR$/alexmotors/css/main.css" />
         <option value="$PROJECT_DIR$/alexmotors/index.html" />
+        <option value="$PROJECT_DIR$/alexmotors/css/main.css" />
       </list>
     </option>
   </component>
@@ -175,18 +171,18 @@
       <workItem from="1569947047581" duration="280000" />
       <workItem from="1569947508527" duration="3857000" />
       <workItem from="1569997527963" duration="227000" />
-      <workItem from="1570024004959" duration="7076000" />
+      <workItem from="1570024004959" duration="11461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14013000" />
+    <option name="totallyTimeSpent" value="18398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -199,7 +195,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.12242687" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.12242687" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -286,13 +282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alexmotors/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="370" lean-forward="true" selection-start-line="370" selection-end-line="370" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alexmotors/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -302,12 +291,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alexmotors/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="165" column="22" selection-start-line="165" selection-start-column="22" selection-end-line="165" selection-end-column="22" />
+        <state relative-caret-position="442">
+          <caret line="352" column="31" selection-start-line="352" selection-start-column="31" selection-end-line="352" selection-end-column="31" />
           <folding>
             <element signature="e#1594#1600#0" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#article#3;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alexmotors/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="501" column="18" selection-start-line="501" selection-start-column="18" selection-end-line="501" selection-end-column="18" />
         </state>
       </provider>
     </entry>

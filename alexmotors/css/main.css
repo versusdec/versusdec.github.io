@@ -200,6 +200,19 @@ button, input[type=button], .btn {
     font-size: 17px;
 }
 
+.btn-border {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #00A2FF;
+    color: #00A2FF;
+    font-size: 17px;
+}
+
+.btn-border:hover {
+    transform: scale(1.03);
+}
+
 .btn-round.btn-filled:hover {
     box-shadow: 0 0 1px 1px #00a2ff;
 }
@@ -368,3 +381,155 @@ header .callback-btn {
     font-weight: bold;
 }
 
+.cars-item {
+    padding: 30px;
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+}
+
+.cars-item img {
+    margin-bottom: 15px;
+}
+
+.cars-item__title {
+    font-family: "Oswald", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cars-item__params {
+    display: flex;
+    color: #ADADAD;
+    margin-bottom: 10px;
+}
+
+.cars-item__params_name {
+    margin-right: 3px;
+}
+
+.cars-item__params_value {
+    color: #1B1B1C;
+    font-weight: bold;
+}
+
+.cars-item__price {
+    padding-left: 60px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.cars-item__price::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/svg/price.svg');
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center;
+}
+
+.cars-item__price_value {
+    color: #00A2FF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cars-item__price_descr {
+    color: #ADADAD;
+    font-size: 14px;
+}
+
+.cars-item button {
+    width: 100%;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid-item {
+    width: 40%;
+}
+
+.advantage {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.advantage img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.advantage-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.order-block {
+    display: flex;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.order-block .left {
+    width: 40%;
+    padding: 40px;
+}
+
+.order-block .right {
+    width: 60%;
+    background-color: #00A2FF;
+}
+.order-block img{
+    max-width: 230px;
+    margin: 0 auto;
+}
+.order-block h3 {
+    margin-top: 0;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.order-block h3 span{
+    color: #00a2ff;
+}
+
+.order-block .advantage{
+    margin-bottom: 20px;
+}
+
+.order-block button{
+    width: 100%;
+}
+
+.order-block .right{
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.order-block ul{
+    color: #fff;
+}
+
+.order-block li{
+    margin-bottom: 10px;
+}
