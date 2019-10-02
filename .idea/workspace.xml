@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1b90d28-6550-4ca3-bad5-1f30250cfc18" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/alexmotors/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexmotors/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/alexmotors/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexmotors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexmotors/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexmotors/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/alexmotors/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +17,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/alexmotors/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+                <state relative-caret-position="731">
+                  <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
                   <folding>
                     <element signature="e#1594#1600#0" expanded="true" />
                   </folding>
@@ -101,10 +97,10 @@
         <option value="$PROJECT_DIR$/Port/fitness/about.html" />
         <option value="$PROJECT_DIR$/Port/fitness/index.html" />
         <option value="$PROJECT_DIR$/alexmotors/js/jquery.min.js" />
-        <option value="$PROJECT_DIR$/alexmotors/index.html" />
         <option value="$PROJECT_DIR$/alexmotors/js/main.js" />
         <option value="$PROJECT_DIR$/alexmotors/css/main.css" />
         <option value="$PROJECT_DIR$/alexmotors/css/media.css" />
+        <option value="$PROJECT_DIR$/alexmotors/index.html" />
       </list>
     </option>
   </component>
@@ -196,12 +192,12 @@
       <workItem from="1569947047581" duration="280000" />
       <workItem from="1569947508527" duration="3857000" />
       <workItem from="1569997527963" duration="227000" />
-      <workItem from="1570024004959" duration="16093000" />
+      <workItem from="1570024004959" duration="16570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23030000" />
+    <option name="totallyTimeSpent" value="23507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -307,16 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alexmotors/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#1594#1600#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alexmotors/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -342,6 +328,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
           <caret line="150" column="18" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alexmotors/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+          <folding>
+            <element signature="e#1594#1600#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
