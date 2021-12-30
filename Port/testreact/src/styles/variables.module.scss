@@ -1,0 +1,30 @@
+//colors
+$base-color: #1E1E1E;
+$primary-color: #79B8C6;
+$primary-dark: #35717E;
+$primary-bright: #39ABC5;
+$secondary-color: #D27927;
+$secondary-dark: #BF6D21;
+$bullet-color: #D5D5D5;
+$bullet-active-color: #57C6DE;
+
+//sizes
+$xs: 10px;
+$sm: 20px;
+$md: 30px;
+$page-width: 1420px;
+// misc
+
+
+//mixins
+@mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+:export {
+  base-color: $base-color;
+  primary-color: $primary-color;
+}
