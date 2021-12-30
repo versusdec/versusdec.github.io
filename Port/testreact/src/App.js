@@ -7,7 +7,7 @@ import {Switch} from "./navigation";
 function App() {
     return (
       <Provider store={store}>
-          <Router history={history} basename={process.env.PUBLIC_URL}>
+          <Router history={history} >
               <Switch/>
           </Router>
       </Provider>
