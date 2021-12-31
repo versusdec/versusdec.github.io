@@ -7,7 +7,7 @@ import {Switch} from "./navigation";
 function App() {
     return (
       <Provider store={store}>
-          <Router history={history} >
+          <Router history={history} basename={''}>
               <Switch/>
           </Router>
       </Provider>
