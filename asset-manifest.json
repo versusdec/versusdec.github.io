@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react_landing/static/css/main.c586772d.css",
+    "main.js": "/react_landing/static/js/main.796065f5.js",
+    "static/media/slide2.jpg": "/react_landing/static/media/slide2.2fed25fb88d541207ced.jpg",
+    "static/media/slide3.jpg": "/react_landing/static/media/slide3.4180ebd4206c7e3d4a9b.jpg",
+    "static/media/laptop.png": "/react_landing/static/media/laptop.173c3a19ed873e99cac2.png",
+    "static/media/foot.png": "/react_landing/static/media/foot.acbafb71f4ef4976a82b.png",
+    "static/media/dots.svg": "/react_landing/static/media/dots.c0e9e56559c262bcefe4.svg",
+    "index.html": "/react_landing/index.html",
+    "static/media/totop.svg": "/react_landing/static/media/totop.fb2e66a7e9e41fd04cbe9e1efcf0ced7.svg",
+    "static/media/arrow2.svg": "/react_landing/static/media/arrow2.5640b9ce1d6e1670607b.svg",
+    "static/media/arrow.svg": "/react_landing/static/media/arrow.3d7079fc7e40d66ed9e5.svg",
+    "main.c586772d.css.map": "/react_landing/static/css/main.c586772d.css.map",
+    "main.796065f5.js.map": "/react_landing/static/js/main.796065f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c586772d.css",
+    "static/js/main.796065f5.js"
+  ]
+}
