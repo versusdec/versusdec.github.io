@@ -16,9 +16,6 @@ import slide3 from '../../img/slide3.jpg'
 import strp from '../../img/rectangle.png'
 
 export const Home = () => {
-    const cardsJSX = services.map(item => {
-        return <Card content={item}/>
-    })
     const goTop = () => {
         window.scrollTo({behavior: 'smooth', top: 0})
     }

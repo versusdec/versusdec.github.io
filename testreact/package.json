@@ -2,7 +2,7 @@
   "name": "2dolist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://versusdec.github.io/testreact",
+  "homepage": "http://versusdec.github.io/testreact",
   "dependencies": {
     "@mdi/js": "^6.5.95",
     "@mdi/react": "^1.5.0",
