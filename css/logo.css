@@ -1,0 +1,29 @@
+.navbar-brand img {
+  height: 120px;
+}
+
+.navbar-collapse {
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-brand img {
+    height: 60px;
+  }
+}
+
+.download-button__ios img {
+  height: 54px;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .download-button__ios img {
+    margin-left: 0;
+  }
+}
+
+.download-button__android img {
+  height: 80px;
+}
