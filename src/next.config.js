@@ -2,11 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  assetPrefix: '/versusdec/',
+  assetPrefix: '.',
   basePath: '/versusdec',
   images: {
     loader: 'akamai',
-    path: '',
+    path: '.',
   },
 }
 
