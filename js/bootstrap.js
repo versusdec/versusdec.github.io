@@ -1,37 +1,37 @@
 require.config({
     paths: {
-        microcore: "https://my.botto.ai/js/microcore",
+        microcore: "/js/microcore",
         routes: "/routes",
-        render: "https://my.botto.ai/js/render",
-        common: "https://my.botto.ai/js/common",
-        masked: "https://my.botto.ai/js/masked",
-        miq: "https://my.botto.ai/js/miq",
-        notify: "https://my.botto.ai/app/modules/notify",
-        disclaimer: "https://my.botto.ai/app/modules/disclaimer",
-        popup: "https://my.botto.ai/app/modules/popup",
-        confirm: "https://my.botto.ai/app/modules/confirm",
-        "app/modules/header": "https://my.botto.ai/app/modules/header",
-        "app/controllers/nav": "https://my.botto.ai/app/controllers/nav",
-        "app/modules/sortable": "https://my.botto.ai/app/modules/sortable",
-        "app/modules/suggests": "https://my.botto.ai/app/modules/suggests",
-        "app/filters/time": "https://my.botto.ai/app/filters/time",
-        scripts: "https://my.botto.ai/js/scripts",
+        render: "/js/render",
+        common: "/js/common",
+        masked: "/js/masked",
+        miq: "/js/miq",
+        notify: "/app/modules/notify",
+        disclaimer: "/app/modules/disclaimer",
+        popup: "/app/modules/popup",
+        confirm: "/app/modules/confirm",
+        "app/modules/header": "/app/modules/header",
+        "app/controllers/nav": "/app/controllers/nav",
+        "app/modules/sortable": "/app/modules/sortable",
+        "app/modules/suggests": "/app/modules/suggests",
+        "app/filters/time": "/app/filters/time",
+        scripts: "/js/scripts",
         chartjs: "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min",
-        chart_plugin: "https://my.botto.ai/js/chartjs-plugin-datalabels",
-        chart_helpers: "https://my.botto.ai/js/chart_helpers",
-        chart: "https://my.botto.ai/js/chart",
+        chart_plugin: "/js/chartjs-plugin-datalabels",
+        chart_helpers: "/js/chart_helpers",
+        chart: "/js/chart",
         ol: "https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.6.1/build/ol",
-        recorder: "https://my.botto.ai/app/modules/recorder",
+        recorder: "/app/modules/recorder",
     },
     render: {
         path: "/app/views",
-        helpers: "https://my.botto.ai/app/modules",
-        filters: "https://my.botto.ai/app/filters"
+        helpers: "/app/modules",
+        filters: "/app/filters"
     },
     domain: "botto.ai",
     api: "https://api.botto.ai",
     ws: 'api.botto.ai',
-    my: 'https://my.botto.ai',
+    my: '',
     my_sub_domain: 'my.botto.ai',
     communications: 'https://communications.botto.ai',
     comm_sub_domain: "communications.botto.ai",
@@ -43,9 +43,7 @@ require.config({
 if (!localStorage.getItem('lang')) {
     switch (navigator.language.slice(0, 2)) {
         case 'uk':
-        case 'ru':
-        case 'be':
-            localStorage.setItem('lang', 'ru');
+            localStorage.setItem('lang', 'ua');
             break;
         default:
             localStorage.setItem('lang', 'en');
