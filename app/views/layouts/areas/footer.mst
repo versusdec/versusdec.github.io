@@ -1,3 +1,0 @@
-<footer>
-  <div class="copy">© 2021 Botto Platform. {{#i18n}}footer.copyrights{{/i18n}}</div>
-</footer>

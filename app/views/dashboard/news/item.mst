@@ -1,7 +1,0 @@
-<a class="item">
-  <div>
-    <a class="hover" href="/news/{{id}}"><b>{{title}}</b></a>
-  </div>
-  <time>{{created|datetime}}</time>
-  <p>{{description}}</p>
-</a>
