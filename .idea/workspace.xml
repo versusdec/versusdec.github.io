@@ -38,13 +38,14 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/keszflow" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\versu\Desktop\D\Front\pages\keszflow" />
       <recent name="C:\Users\versu\Desktop\D\Front\pages" />
       <recent name="C:\Users\versu\Desktop\D\Front\pages\src" />
     </key>
@@ -74,7 +75,7 @@
       <workItem from="1692356374378" duration="493000" />
       <workItem from="1692356878210" duration="104000" />
       <workItem from="1694426050099" duration="363000" />
-      <workItem from="1699448401364" duration="2357000" />
+      <workItem from="1699448401364" duration="2524000" />
     </task>
     <task id="LOCAL-00001" summary="export">
       <created>1661279153534</created>
@@ -195,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699456466320</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="nextjs test">
+      <created>1699458439497</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1699458439497</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
