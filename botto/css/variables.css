@@ -1,0 +1,24 @@
+:root {
+    --color__blue_bg: rgb(21, 32, 61);
+    --color__light_blue: #A09DC0;
+    --color__select_bg: #D8DCF0;
+    --color__select2_bg: #EEF1FF;
+    --color__sh: #E2E4F0;
+    --color__botto_blue: #24ADED;
+    --color__botto_red: #FA006C;
+    --color__table: #FBFBFF;
+    --color__table2: #F5F7FF;
+    --color__green3: #6FCF97;
+    --color__green2: #27AE60;
+    --color__yellow: #FFBB00;
+
+    --shadow: 0px 0px 10px var(--color__sh);
+
+    --height__header: 50px;
+    --height__footer: 42px;
+
+    --border-radius: 6px;
+
+    --filter__icon_hover: brightness(0) saturate(100%) invert(17%) sepia(100%) saturate(7301%) hue-rotate(328deg) brightness(97%) contrast(102%);
+    --filter__botto_blue: brightness(0) saturate(100%) invert(63%) sepia(27%) saturate(5696%) hue-rotate(167deg) brightness(99%) contrast(87%);
+}

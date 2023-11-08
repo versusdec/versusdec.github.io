@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="itm-solutions.ru" id="10d5ab02-b6f4-4a64-b178-534f3f39d3b5" keyPath="C:\Users\versu\.ssh\id_rsa" port="22" customName="vodoley" nameFormat="CUSTOM">
+        <option name="customName" value="vodoley" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
