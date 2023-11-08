@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59030d56-d48c-4483-b93f-00b3b0108d61" name="Changes" comment="nextjs test" />
+    <list default="true" id="59030d56-d48c-4483-b93f-00b3b0108d61" name="Changes" comment="keszflow assetPrefix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/404/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keszflow/404/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/keszflow/404/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keszflow/calendar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/keszflow/calendar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keszflow/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/keszflow/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keszflow/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/keszflow/login/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keszflow/recover/[code]/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/keszflow/recover/[code]/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keszflow/recover/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/keszflow/recover/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keszflow/register/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/keszflow/register/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,15 +52,15 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/keszflow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\versu\Desktop\D\Front\pages\keszflow" />
       <recent name="C:\Users\versu\Desktop\D\Front\pages" />
+      <recent name="C:\Users\versu\Desktop\D\Front\pages\keszflow" />
       <recent name="C:\Users\versu\Desktop\D\Front\pages\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -75,7 +89,7 @@
       <workItem from="1692356374378" duration="493000" />
       <workItem from="1692356878210" duration="104000" />
       <workItem from="1694426050099" duration="363000" />
-      <workItem from="1699448401364" duration="2524000" />
+      <workItem from="1699448401364" duration="3108000" />
     </task>
     <task id="LOCAL-00001" summary="export">
       <created>1661279153534</created>
@@ -203,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699458439497</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="keszflow assetPrefix">
+      <created>1699458829265</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1699458829265</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +296,7 @@
     <MESSAGE value="test2" />
     <MESSAGE value="keszflow test" />
     <MESSAGE value="nextjs test" />
-    <option name="LAST_COMMIT_MESSAGE" value="nextjs test" />
+    <MESSAGE value="keszflow assetPrefix" />
+    <option name="LAST_COMMIT_MESSAGE" value="keszflow assetPrefix" />
   </component>
 </project>
