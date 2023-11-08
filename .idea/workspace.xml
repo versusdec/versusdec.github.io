@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59030d56-d48c-4483-b93f-00b3b0108d61" name="Changes" comment="nextjs test" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="2DldeqIuEFcv7cYHnAbuGBSjPxZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\versu\Desktop\D\Front\pages" />
+      <recent name="C:\Users\versu\Desktop\D\Front\pages\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\versu\Desktop\D\Front\pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1661277705166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661277705166</updated>
+      <workItem from="1661277706834" duration="1443000" />
+      <workItem from="1661280701554" duration="86000" />
+      <workItem from="1661281395195" duration="81000" />
+      <workItem from="1661281748712" duration="1705000" />
+      <workItem from="1661529144798" duration="726000" />
+      <workItem from="1661677154979" duration="635000" />
+      <workItem from="1666946280417" duration="110000" />
+      <workItem from="1676915732276" duration="14000" />
+      <workItem from="1676919826719" duration="503000" />
+      <workItem from="1678389709515" duration="88000" />
+      <workItem from="1678441473198" duration="217000" />
+      <workItem from="1689058708205" duration="1559000" />
+      <workItem from="1692356374378" duration="493000" />
+      <workItem from="1692356878210" duration="104000" />
+      <workItem from="1694426050099" duration="363000" />
+      <workItem from="1699448401364" duration="2357000" />
+    </task>
+    <task id="LOCAL-00001" summary="export">
+      <created>1661279153534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661279153534</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix">
+      <created>1661280034200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661280034200</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added src files">
+      <created>1661280774589</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661280774589</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix">
+      <created>1661281467177</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661281467177</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix">
+      <created>1661282687861</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661282687861</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix">
+      <created>1661283143623</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661283143623</updated>
+    </task>
+    <task id="LOCAL-00007" summary="botto test">
+      <created>1661529207563</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661529207563</updated>
+    </task>
+    <task id="LOCAL-00008" summary="botto test">
+      <created>1661529444889</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661529444889</updated>
+    </task>
+    <task id="LOCAL-00009" summary="nextjs test">
+      <created>1661677192866</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661677192866</updated>
+    </task>
+    <task id="LOCAL-00010" summary="recorder test file">
+      <created>1666946363137</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666946363137</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fuck the duck">
+      <created>1676919922549</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676919922549</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test">
+      <created>1678389771910</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678389771910</updated>
+    </task>
+    <task id="LOCAL-00013" summary=".nojekyll">
+      <created>1678441684157</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678441684157</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test">
+      <created>1689059999704</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689059999704</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test2">
+      <created>1689062164341</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689062164341</updated>
+    </task>
+    <task id="LOCAL-00016" summary="keszflow test">
+      <created>1694426329610</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1694426329610</updated>
+    </task>
+    <task id="LOCAL-00017" summary="nextjs test">
+      <created>1699456466320</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1699456466320</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="37c35660-558e-4f13-b605-afc2f6987b6f">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/gh-pages" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="37c35660-558e-4f13-b605-afc2f6987b6f" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="export" />
+    <MESSAGE value="added src files" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="botto test" />
+    <MESSAGE value="recorder test file" />
+    <MESSAGE value="fuck the duck" />
+    <MESSAGE value=".nojekyll" />
+    <MESSAGE value="test" />
+    <MESSAGE value="test2" />
+    <MESSAGE value="keszflow test" />
+    <MESSAGE value="nextjs test" />
+    <option name="LAST_COMMIT_MESSAGE" value="nextjs test" />
+  </component>
+</project>
