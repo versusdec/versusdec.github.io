@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59030d56-d48c-4483-b93f-00b3b0108d61" name="Changes" comment="fix" />
+    <list default="true" id="59030d56-d48c-4483-b93f-00b3b0108d61" name="Changes" comment="svg fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +78,8 @@
       <workItem from="1692356878210" duration="104000" />
       <workItem from="1694426050099" duration="363000" />
       <workItem from="1699448401364" duration="3140000" />
-      <workItem from="1699473507815" duration="1693000" />
+      <workItem from="1699473507815" duration="1916000" />
+      <workItem from="1699488647801" duration="193000" />
     </task>
     <task id="LOCAL-00001" summary="export">
       <created>1661279153534</created>
@@ -225,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699476138660</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="svg fix">
+      <created>1699476656006</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1699476656006</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +309,7 @@
     <MESSAGE value="keszflow assetPrefix" />
     <MESSAGE value="config fix" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="svg fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="svg fix" />
   </component>
 </project>
