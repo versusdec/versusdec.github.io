@@ -468,6 +468,7 @@ Recorder = (function () {
             return alert('Unable to use microphone')
           $player.classList.add('recording');
           $player.querySelector('button.record').setAttribute('disabled', true);
+          $player.querySelector('button.stop').removeAttribute('disabled');
           mc.events.off(['record.start', 'recorder.volumes'])
           mc.events.on('record.start', (start) => {
             time = setInterval(function () {
@@ -486,7 +487,7 @@ Recorder = (function () {
           });
           recorderEvents.stop();
           $player.classList.contains('recording') ? $player.querySelector('.close').removeAttribute('disabled') : void 0;
-          !$player.classList.contains('recording') ? $player.querySelector('button.stop').setAttribute('disabled') : $player.querySelector('button.stop').removeAttribute('disabled');
+          $player.querySelector('button.stop').setAttribute('disabled', true);
           $player.classList.remove('recording');
           $player.querySelector('button.record').classList.add('hide');
           $player.querySelector('button.record').removeAttribute('disabled');
