@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59030d56-d48c-4483-b93f-00b3b0108d61" name="Changes" comment="secondary button styles" />
+    <list default="true" id="59030d56-d48c-4483-b93f-00b3b0108d61" name="Changes" comment="added recorder" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,13 +38,14 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/plugins" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\versu\Desktop\D\Front\pages\plugins" />
       <recent name="C:\Users\versu\Desktop\D\Front\pages" />
       <recent name="C:\Users\versu\Desktop\D\Front\pages\keszflow" />
       <recent name="C:\Users\versu\Desktop\D\Front\pages\src" />
@@ -79,6 +80,7 @@
       <workItem from="1699473507815" duration="1916000" />
       <workItem from="1699488647801" duration="193000" />
       <workItem from="1699490941270" duration="84000" />
+      <workItem from="1699523951618" duration="357000" />
     </task>
     <task id="LOCAL-00001" summary="export">
       <created>1661279153534</created>
@@ -241,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699491045667</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="added recorder">
+      <created>1699523982532</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1699523982532</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +326,7 @@
     <MESSAGE value="fix" />
     <MESSAGE value="svg fix" />
     <MESSAGE value="secondary button styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="secondary button styles" />
+    <MESSAGE value="added recorder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added recorder" />
   </component>
 </project>
