@@ -1,0 +1,133 @@
+@import "@netpeak/styles/variables";
+
+.header {
+  gap: 20px;
+}
+
+.main {
+  padding-top: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  * {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+}
+
+.switch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: 1px solid $color-primary;
+  border-radius: 10px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin-bottom: 10px;
+
+  > div {
+    font-size: 14px;
+    font-weight: 800;
+    color: $color-primary;
+    width: 50%;
+    text-align: center;
+    padding: 6px;
+    cursor: pointer;
+
+    &.active {
+      background-color: rgba($color-primary, 0.2);
+    }
+  }
+}
+
+//todo floating placeholder
+.inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: $gap-sm;
+  margin-bottom: 10px;
+
+  input {
+    padding: 20px 15px;
+    border-radius: 10px;
+    border: 1px solid $color-border;
+
+    &::-webkit-input-placeholder {
+      font-family: $font-family;
+      font-size: 14px;
+      color: $color-text_primary;
+    }
+
+    &::-moz-placeholder {
+      font-family: $font-family;
+      font-size: 14px;
+      color: $color-text_primary;
+    }
+
+    &:-ms-input-placeholder {
+      font-family: $font-family;
+      font-size: 14px;
+      color: $color-text_primary;
+    }
+
+    &::-ms-input-placeholder {
+      font-family: $font-family;
+      font-size: 14px;
+      color: $color-text_primary;
+    }
+
+    &::placeholder {
+      font-family: $font-family;
+      font-size: 14px;
+      color: $color-text_primary;
+    }
+  }
+
+  .input {
+    position: relative;
+
+    label {
+      position: absolute;
+      left: 15px;
+      top: 20px;
+      pointer-events: none;
+      -webkit-transition: 0.2s;
+      -o-transition: 0.2s;
+      transition: 0.2s;
+    }
+
+    input:focus + label, input:not([value=""]) + label {
+      top: 3px;
+      font-size: 12px;
+    }
+  }
+}
+
+.quizTop {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 100%;
+  margin: auto 0 21vh;
+}

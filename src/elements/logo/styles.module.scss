@@ -1,0 +1,18 @@
+@import "@netpeak/styles/variables";
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: $color-text_primary;
+  cursor: default;
+
+  img {
+    margin-right: 10px;
+  }
+}
