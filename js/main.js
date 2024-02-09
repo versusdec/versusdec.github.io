@@ -19,9 +19,9 @@ $(function () {
     }
   });
   
-  setTimeout(() => {
+  $('.modal-btn').on('click', ()=>{
     $('.modal').addClass('active')
-  }, 2000)
+  })
   
   $('.modal .close').on('click', () => {
     $('.modal').removeClass('active')
